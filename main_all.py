@@ -49,7 +49,7 @@ if __name__ == '__main__':
         else:
             pass
         main_weibo(event, event_id)
-        path = 
+        path =
         # path_list = discover_path()
         # for path in path_list:
             main_network(path)  # 网络图
