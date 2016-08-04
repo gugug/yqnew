@@ -1,0 +1,40 @@
+{
+  "npm": {
+    "nodes": [
+      {
+        "id": 0,
+        "x": 100,
+        "y": 10,
+        "label": "猪头日报",
+        "size": 10,
+        "color": "GREEN"
+      },
+      {
+        "id": 1,
+        "x": 20,
+        "y": 1,
+        "label": "网易新闻",
+        "size": 10,
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "x": 150,
+        "y": 1,
+        "label": "草根用户",
+        "size": 10,
+        "color": "yellow"
+      }
+    ],
+    "edges": [
+      {
+        "sourceID": 0,
+        "targetID": 2
+      },
+      {
+        "sourceID": 1,
+        "targetID": 2
+      }
+    ]
+  }
+}

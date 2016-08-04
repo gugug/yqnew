@@ -1,0 +1,121 @@
+{
+	"nameList":["John","Steve","Ben","Damon","Ian"],
+	"generalView":{
+	  	"cates": [
+	  		{"id":0, "name":"人民日报"},
+	  		{"id":0, "name":"网易新闻"}
+	  	],
+	    "nodes": [
+	      {"id": 0, "label": "微博1", "size": 30, "cateNum":0},
+	      {"id": 1, "label": "微博2",  "size": 20, "cateNum":0},
+	      {"id": 2, "label": "新闻1", "size": 40, "cateNum":1},
+	      {"id": 3, "label": "新闻2", "size": 30, "cateNum":1}
+	    ],
+	      "edges" : [
+	        {"sourceID": 0, "targetID": 1},
+	        {"sourceID": 3, "targetID": 2}
+	      ]
+    },
+    "view1": {
+    	"time":"2016/5/10",
+    	"cates": [
+	  		{"id":0, "name":"人民日报"},
+	  		{"id":0, "name":"网易新闻"}
+	  	],
+	    "nodes": [
+	      {"id": 0, "label": "微博1", "size": 30, "cateNum":0},
+	      {"id": 1, "label": "微博2",  "size": 20, "cateNum":0},
+	      {"id": 2, "label": "新闻1", "size": 40, "cateNum":1},
+	      {"id": 3, "label": "新闻2", "size": 30, "cateNum":1}
+	    ],
+	      "edges" : [
+	        {"sourceID": 0, "targetID": 1},
+	        {"sourceID": 3, "targetID": 2}
+	    ]
+    },
+    "view2": {
+    	"time":"2016/5/11",
+    	"cates": [
+	  		{"id":0, "name":"人民日报"},
+	  		{"id":0, "name":"网易新闻"}
+	  	],
+	    "nodes": [
+	      {"id": 0, "label": "微博1", "size": 30, "cateNum":0},
+	      {"id": 1, "label": "微博2",  "size": 20, "cateNum":0},
+	      {"id": 2, "label": "新闻1", "size": 40, "cateNum":1},
+	      {"id": 3, "label": "新闻2", "size": 30, "cateNum":1}
+	    ],
+	      "edges" : [
+	        {"sourceID": 0, "targetID": 1},
+	        {"sourceID": 3, "targetID": 2}
+	    ]
+    },
+    "view3": {
+    	"time":"2016/5/12",
+    	"cates": [
+	  		{"id":0, "name":"人民日报"},
+	  		{"id":0, "name":"网易新闻"}
+	  	],
+	    "nodes": [
+	      {"id": 0, "label": "微博1", "size": 30, "cateNum":0},
+	      {"id": 1, "label": "微博2",  "size": 20, "cateNum":0},
+	      {"id": 2, "label": "新闻1", "size": 40, "cateNum":1},
+	      {"id": 3, "label": "新闻2", "size": 30, "cateNum":1}
+	    ],
+	      "edges" : [
+	        {"sourceID": 0, "targetID": 1},
+	        {"sourceID": 3, "targetID": 2}
+	    ]
+    },
+    "view4": {
+    	"time":"2016/5/13",
+    	"cates": [
+	  		{"id":0, "name":"人民日报"},
+	  		{"id":0, "name":"网易新闻"}
+	  	],
+	    "nodes": [
+	      {"id": 0, "label": "微博1", "size": 30, "cateNum":0},
+	      {"id": 1, "label": "微博2",  "size": 20, "cateNum":0},
+	      {"id": 2, "label": "新闻1", "size": 40, "cateNum":1},
+	      {"id": 3, "label": "新闻2", "size": 30, "cateNum":1}
+	    ],
+	      "edges" : [
+	        {"sourceID": 0, "targetID": 1},
+	        {"sourceID": 3, "targetID": 2}
+	    ]
+    },
+    "view5": {
+    	"time":"2016/5/14",
+    	"cates": [
+	  		{"id":0, "name":"人民日报"},
+	  		{"id":0, "name":"网易新闻"}
+	  	],
+	    "nodes": [
+	      {"id": 0, "label": "微博1", "size": 30, "cateNum":0},
+	      {"id": 1, "label": "微博2",  "size": 20, "cateNum":0},
+	      {"id": 2, "label": "新闻1", "size": 40, "cateNum":1},
+	      {"id": 3, "label": "新闻2", "size": 30, "cateNum":1}
+	    ],
+	      "edges" : [
+	        {"sourceID": 0, "targetID": 1},
+	        {"sourceID": 3, "targetID": 2}
+	    ]
+    },
+    "view6": {
+    	"time":"2016/5/15",
+    	"cates": [
+	  		{"id":0, "name":"人民日报"},
+	  		{"id":0, "name":"网易新闻"}
+	  	],
+	    "nodes": [
+	      {"id": 0, "label": "微博1", "size": 30, "cateNum":0},
+	      {"id": 1, "label": "微博2",  "size": 20, "cateNum":0},
+	      {"id": 2, "label": "新闻1", "size": 40, "cateNum":1},
+	      {"id": 3, "label": "新闻2", "size": 30, "cateNum":1}
+	    ],
+	      "edges" : [
+	        {"sourceID": 0, "targetID": 1},
+	        {"sourceID": 3, "targetID": 2}
+	    ]
+    }
+}

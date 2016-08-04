@@ -1,0 +1,175 @@
+#container {
+    margin: 0 auto;
+    width: 95%;
+    height: 2200px;
+    padding: 20px 0;
+    /*background-color: lightcyan;*/
+    border: dotted 2px;
+}
+
+/*----------------chart 1---------------------*/
+#graph_1 {
+    /*border: dotted 2px;*/
+    float: left;
+    /*margin: 10px;*/
+    /*width: 600px;*/
+    /*height: 400px;*/
+    width: 45%;
+    margin-left: 3%;
+    margin-bottom: 50px;
+    /*background-color: antiquewhite;*/
+}
+
+/*----------------chart 2---------------------*/
+#graph_2 {
+    /*border: dotted 2px;*/
+    float: left;
+    /*margin: 10px;*/
+    /*width: 600px;*/
+    /*height: 400px;*/
+    width: 45%;
+    margin-left: 3%;
+    margin-bottom: 50px;
+    /*background-color: antiquewhite;*/
+}
+
+/*----------------chart 3---------------------*/
+#graph_3 {
+    border: solid 1px #EEEEFF;
+    float: left;
+    /*margin: 10px;*/
+    /*width: 600px;*/
+    width: 45%;
+    padding: 0;
+    margin-left: 3%;
+    margin-bottom: 50px;
+    /*height: 400px;*/
+    /*background-color: antiquewhite;*/
+}
+#news_title {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*height: 40px;*/
+    background-color: #EEEEFF;
+}
+abbr {
+    text-decoration: none;
+}
+#demo {
+    width: 43%;
+    /*height: 340px;*/
+    overflow: hidden;
+    /* Ìí¼Ó¶¨Î» */
+    position: absolute;
+    /*background-color: #00ccff;*/
+    margin: 0;
+    padding: 0;
+}
+#list{
+    width: 100%;
+    /*height: 800px;*/
+    /*background-color: #999999;*/
+    margin: 0;
+    padding: 0;
+}
+ul {
+    padding-left:2%;
+    list-style-type: none;
+    width: 90%;
+}
+li {
+    border-bottom: dotted 1px gray;
+}
+.img_div {
+    width: 25%;
+    background-color: #00ccff;
+    height: 100%;
+    float: left;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+    margin-right: 3%;
+}
+h3 {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+    width: 60%;
+    cursor: default;
+}
+li img {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+li p {
+    font: 200 12px/1.5 Georgia, Times New Roman, serif;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    width: 70%;
+    cursor: default;
+}
+li {
+    padding: 10px;
+    overflow: auto;
+}
+li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+img{
+    width:100px;
+}
+
+/*----------------chart 4---------------------*/
+#graph_4 {
+    /*border: dotted 2px;*/
+    float: left;
+    /*margin: 10px;*/
+    /*width: 600px;*/
+    width: 45%;
+    margin-left: 3%;
+    margin-bottom: 50px;
+    /*height: 400px;*/
+    /*background-color: antiquewhite;*/
+}
+
+/*----------------chart 5---------------------*/
+#graph_5 {
+    clear: left;
+    /*border: dotted 2px;*/
+    float: left;
+    /*margin: 10px;*/
+    /*width: 600px;*/
+    width: 45%;
+    margin-left: 3%;
+    margin-bottom: 50px;
+    /*height: 400px;*/
+    /*background-color: antiquewhite;*/
+}
+
+/*----------------chart 6---------------------*/
+#graph_6 {
+    /*border: dotted 2px;*/
+    float: left;
+    /*margin: 10px;*/
+    /*width: 600px;*/
+    width: 45%;
+    margin-left: 3%;
+    margin-bottom: 50px;
+    /*height: 400px;*/
+    /*background-color: antiquewhite;*/
+}
+
+/*----------------chart 7---------------------*/
+#graph_7 {
+    margin-left: 5%;
+    /*border: dotted 2px;*/
+    float: left;
+    /*margin: 10px;*/
+    /*width: 1200px;*/
+    width: 90%;
+    /*height: 800px;*/
+    /*background-color: antiquewhite;*/
+}

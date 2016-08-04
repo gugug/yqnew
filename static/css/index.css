@@ -1,0 +1,78 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	/*background: url(../images/network.png) center 500px no-repeat, url(../images/network.png) center -320px no-repeat;*/
+	/*background-repeat: no-repeat;
+	background-position: center;*/
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+#container{
+	position: absolute;
+	left:50%;
+	margin-left: -450px;
+	top:25%;
+	width: 900px;
+}
+#title{
+	position: relative;
+	left: 50%;
+	margin-left: -144px;
+	margin-bottom: 30px;
+}
+#glasses{
+	position: relative;
+	display: block;
+	left: 50%;
+	margin-left: -60px;
+	margin-bottom: 30px;
+}
+#search{
+	position: relative;
+	width: 580px;
+	left: 50%;
+	margin-left: -290px;
+	z-index: 1000;
+}
+#search input{
+	width: 500px;
+	height: 40px;
+	border:2px solid #ddd;
+	border-right: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	outline: none;
+	border-radius: 5px 0 0 5px;
+	color: #666;
+	left: 50%;
+	font-size: 14px;
+	text-indent: 1em;
+}
+#search button{
+	position: relative;
+	/*top: 1px;*/
+	height:40px;
+	width: 80px;
+	background-color:  #5CC595;
+	border: 0px;
+	color: #fff;
+	margin-left: -8px;
+	outline: none;
+	border-radius: 0px 5px 5px 0px;
+	cursor: pointer;
+	font-size: 16px;
+}
+#search button:hover{
+	background-color: #008758;
+	-moz-transition: background-color 0.5s; /* Firefox 4 */
+	-webkit-transition: background-color 0.5s; /* Safari 和 Chrome */
+	-o-transition: background-color 0.5s; /* Opera */
+}
+.cd-horizontal-timeline{
+	z-index: 300;
+	margin-top: -80px;
+}

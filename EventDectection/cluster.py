@@ -33,7 +33,7 @@ class Cluster:
             for j in range(0, news_list.__len__(),1):
                 new_j = news_list[j]
                 similarity = Levenshtein.ratio(new_i,new_j)
-                if similarity > 0.4:
+                if similarity > 0.55:
                     news_similar_matrix[i][j] = news_similar_matrix[j][i] = similarity*10
                 else:
                     news_similar_matrix[i][j] = news_similar_matrix[j][i] = 0

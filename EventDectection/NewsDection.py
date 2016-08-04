@@ -204,7 +204,7 @@ class NewsDetection:
     @staticmethod
     def detect_news():
         user = MoblieWeibo()
-        user.login('451650276@qq.com', '19950602')
+        user.login('70705420yc@sina.com','1234567') #('451650276@qq.com', '19950602')
         threading_news_titles = ThreadingNewsTitles()
         dic_news = threading_news_titles.threading()
         return dic_news

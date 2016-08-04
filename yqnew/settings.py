@@ -15,6 +15,9 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # to yqnew
+JSON_DIR = os.path.join(BASE_DIR, 'static/data')
+DOC_DIR = os.path.join(BASE_DIR,'documents/topic')
+
 
 
 # Quick-start development settings - unsuitable for production
@@ -57,7 +60,7 @@ ROOT_URLCONF = 'yqnew.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -81,8 +84,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'yqnew',#'fig',
         'USER':'root',#'fig',
-        'PASSWORD':'ViveMax2016',#'fig',
-        'HOST':'42.96.134.205',#'192.168.235.36',#'192.168.235.36',#'127.0.0.1',#'192.168.1.120', #'192.168.1.26',
+        'PASSWORD':'uliuli520',#'fig',
+        'HOST':'localhost',#'42.96.134.205',#'192.168.235.36',#'192.168.235.36',#'127.0.0.1',#'192.168.1.120', #'192.168.1.26',
         'PORT':'3306',
     }
 }

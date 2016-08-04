@@ -1,0 +1,46 @@
+{
+  "npm": {
+    "nodes": [
+      {"id": 0, "x":100, "y": 50, "label": "猪头日报", "size": 80, "color": "GREEN"},
+      {"id": 1, "x":200, "y": 100, "label": "网易新闻",  "size": 60, "color": "blue"},
+      {"id": 2, "x":300, "y": 100, "label": "草根用户", "size": 100,  "color": "yellow"}
+    ],
+      "edges" : [
+        {"sourceID": 0, "targetID": 2},
+        {"sourceID": 1, "targetID": 2}
+      ]
+    },
+  "news": [
+  	{"id":0, "time":"8月1日 12:00", "title": "sfsdgsdgdsfsf", "content":"11111111"},
+  	{"id":1, "time":"8月1日 12:00", "title": "123", "content":"sfjiasdfljsldkfjlskdjflksjfl"},
+  	{"id":2, "time":"8月1日 12:00", "title": "123", "content":"sfjiasdfljsldkfjlskdjflksjfl"},
+  	{"id":3, "time":"8月1日 12:00", "title": "123", "content":"sfjiasdfljsldkfjlskdjflksjflsfjiasdfljsldkfjlskdjflksjflsfjiasdfljsldkfjlskdjflksjflsfjiasdfljsldkfjlskdjflksjfl"}
+  ],
+  "wordCloud": [
+    {"text": "品牌", "weight": "90"},
+    {"text": "代言人", "weight": "80"},
+    {"text": "色彩", "weight": "60"},
+    {"text": "哈哈", "weight": "40"},
+    {"text": "花都", "weight": "20"},
+    {"text": "构图", "weight": "50"},
+    {"text": "待遇", "weight": "70"}
+  ],
+  "ageDistribution": [10,20,23,37],
+  "socialEmotion": [
+    {"value":10, "name":"特效渣"},
+    {"value":5, "name":"赞"},
+    {"value":15, "name":"喜欢"},
+    {"value":25, "name":"垃圾"},
+    {"value":20, "name":"快餐文化"},
+    {"value":15, "name":"炫酷"},
+    {"value":10, "name":"没看点"}
+  ],
+  "map": [
+    {"name": "上海", "value": 0},
+    {"name": "湖州", "value": 0},
+    {"name": "连云港", "value": 15},
+    {"name": "北京", "value": 10},
+    {"name": "广州", "value": 0},
+    {"name": "深圳", "value": 25}
+  ]
+}
