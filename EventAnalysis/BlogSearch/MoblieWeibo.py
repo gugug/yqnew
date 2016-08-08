@@ -4,10 +4,10 @@ import os
 
 __author__ = 'chenge'
 import sys
-sys.path.append('home/yc/PycharmProjects/yqproject/yqproject/settings.py')
+# sys.path.append('home/yc/PycharmProjects/yqproject/yqproject/settings.py')
 import re
 import urllib2, urllib, cookielib
-from yqnew.settings import *
+
 
 headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:35.0) Gecko/20100101 Firefox/35.0'}
 

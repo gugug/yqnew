@@ -1,4 +1,4 @@
-$.getJSON('/static/data/age_distribution.json',function(data) {
+$.getJSON('/static/data/'+topic+'/age_distribution.json',function(data) {
     //console.log(data.npm.nodes.length);
     /*----------------chart 5---------------------*/
     var chart_5 = echarts.init(document.getElementById('graph_5'));

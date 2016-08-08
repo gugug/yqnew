@@ -134,7 +134,7 @@ def link_label(road_list):
     label_list = []
     size_list = []
     for road in road_list:
-        print 'road', road, '\n'
+        # print 'road', road, '\n'
         name_list = re.findall(pattern_name, road)
         # print '\n'.join(name_list)
         # for i in name_list:
@@ -238,15 +238,28 @@ def write_history_json(path):
     用于写入7个网络图
     :return:
     """
-    event_title = path.split('/')[-1]
-    for i in range(1,7):
-        older_file = open(os.path.join(JSON_DIR,event_title, 'repost_path%s.json' % str(i)),'w+')
-        newer_file = open(os.path.join(JSON_DIR,event_title, 'repost_path%s.json' % str(i+1)),'rw+')
-        content = newer_file.readlines()
-        # print older_file, newer_file,content
-        older_file.writelines(content)
-        newer_file.close()
-        older_file.close()
+    count = 0
+    event_title = path.split('/')[-2]
+    folder_path = os.path.join(JSON_DIR,event_title)
+    if os.path.exists(folder_path):
+        for paths, folders, files in os.walk(folder_path):
+            for f in files:
+                if f.startswith('repost'):
+                    count += 1
+        low = 7- count
+        if low == 0:
+            low = 1
+        for i in range(low, 7):
+            older_file = open(os.path.join(JSON_DIR,event_title, 'repost_path%s.json' % str(i)),'w+')
+            newer_file = open(os.path.join(JSON_DIR,event_title, 'repost_path%s.json' % str(i+1)),'r+')
+            content = newer_file.readlines()
+            # print older_file, newer_file,content
+            older_file.writelines(content)
+            newer_file.close()
+            older_file.close()
+    else:
+        os.mkdir(folder_path)
+
     return True
 
 
@@ -260,7 +273,7 @@ def write_json(file_name, path):
     edges_list = []
     name_list = []
     cate_list = []
-    event_title = path.split('/')[-1]
+    event_title = path.split('/')[-2]
     data = xlrd.open_workbook(file_name)
     nodes_sheet = data.sheet_by_index(0)
     edges_sheet = data.sheet_by_index(1)
@@ -276,6 +289,9 @@ def write_json(file_name, path):
             name_list.append(label[i])
             cate_dict = {'id':id[i],'name':label[i]}
             cate_list.append(cate_dict)
+    if len(cate_list) < 1:
+        cate_list.append({'id':0,'name':'默认分组'})
+
     for i in range(len(id)):
         a = random.randint(0,len(cate_list)-1)
         nodes_dict = {'id': id[i], 'x': x[i], 'y': y[i], 'label': label[i], 'size': size[i],'cateNum':a}
@@ -313,6 +329,8 @@ def main_network(topic_time_path):
             path = os.path.join(root, 'label_link.xls')
             path_list.append(path)
     # # print path_list[0]
+
+
     write_history_json(topic_time_path)
     for i in range(len(path_list)):
         write_json(path_list[i],topic_time_path)

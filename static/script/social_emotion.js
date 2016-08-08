@@ -1,4 +1,4 @@
-$.getJSON('/static/data/social_emotion.json',function(data) {
+$.getJSON('/static/data/'+topic+'/social_emotion.json',function(data) {
     //console.log(data.npm.nodes.length);
 /*----------------chart 6---------------------*/
     var chart_6 = echarts.init(document.getElementById('graph_6'));

@@ -143,7 +143,7 @@ def dump_json(dict_emotion,path):
     :return:
     """
     emotion_list = []
-    event_title = path.split('/')[-1]
+    event_title = path.split('/')[-2]
     for i in dict_emotion:
         dict_emotion[i] = '%.2f' % dict_emotion[i]
         emotion_dict = {'value':dict_emotion[i],'name':i}

@@ -1,4 +1,4 @@
-$.getJSON('/static/data/news1.json',function(data) {
+$.getJSON('/static/data/'+topic+'/news.json',function(data) {
     //console.log(data.npm.nodes.length);
     /*----------------chart 3---------------------*/
     $('#demo').perfectScrollbar();

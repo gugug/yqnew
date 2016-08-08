@@ -1,15 +1,53 @@
 #coding=utf-8
-
+from django import forms
 from django.shortcuts import render,render_to_response
 from django.http import HttpResponseRedirect, HttpResponse, JsonResponse
+from db_connection import *
 
 # Create your views here.
 
 def test(request):
     return render_to_response('test.html')
 
-def repost(request):
-    return render_to_response('repost_graph.html')
+def repost(request,topic =''):
+    # topic = 'example'
+    return render_to_response('repost_graph.html',{'topic':topic})
+
+class SearchForm(forms.Form):
+    input_words = forms.CharField(max_length=100)
+
+def all_graph(request,topic=''):
+    db = Database()
+    eid_tuple = ()
+    # print 'topic', topic
+    if request.method == 'POST':
+        sf = SearchForm(request.POST)
+        if sf.is_valid():
+            search_words = sf.cleaned_data['input_words']
+            eid_tuple = db.search_vague_topic(search_words)  # ({eid,etp},{})
+
+        else:
+            print 'invalid form'
+    else:
+        eid_tuple = db.search_exact_topic(topic)
+
+    if len(eid_tuple) == 0:
+        return render_to_response('error.html')
+        # scale_list = [11, 11, 15, 13, 12, 13, 10,13,12,9]
+        #
+        # return render_to_response('graph.html',{'g1_data':scale_list,'topic':topic})
+
+    if len(eid_tuple) > 1:
+        event_list = []
+        for i in eid_tuple:
+            event_list.append(i)
+        return render(request, 'list.html', {'event_list': event_list})
+    else:
+        event_id = eid_tuple[0]['event_id']
+        scale_list = db.get_scale(event_id)
+        db.get_keyword(event_id)
+        db.get_news(event_id)
+        return render_to_response('graph.html',{'g1_data':scale_list,'topic':topic})
 
 
 def graph(request):
@@ -20,8 +58,9 @@ def graph(request):
 def index(request):
     data=[]
     # eve=Event()
-    # result = eve.get_tiemline()
-    result = []
+    db = Database()
+    result = db.get_tiemline()
+    # result = []
     if len(result) == 0:
         month_list = [4,4,4,4,4,4,4,4]
         day_list = ['1','5','10','20','23','25','27','30']

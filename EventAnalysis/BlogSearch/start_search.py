@@ -6,7 +6,6 @@ from MoblieWeibo import *
 from write_everything import *
 from create_file import *
 from search_topic import SearchTopic as st
-
 __author__ = 'gu'
 
 """
@@ -21,10 +20,11 @@ def serach_list(blog_list):
     传入一个博文标题列表，然后多进程对每一个元素进行搜索
     :return:
     """
-    time_dir = create_time_file()
+
+    event_name = blog_list[0]
     threads = []
     for blog in blog_list:
-        search_process = multiprocessing.Process(target=start_search, args=(time_dir, blog))  # 搜索每一个blog
+        search_process = multiprocessing.Process(target=start_search, args=(blog, event_name))  # 搜索每一个blog
         search_process.start()
         threads.append(search_process)
 
@@ -32,12 +32,14 @@ def serach_list(blog_list):
         threads[j].join()
 
 
-def start_search(time_dir, one_blog):
+def start_search(one_blog, event_name):
     """
     对一个博文在微博平台进行搜索
     :return:
     """
-    total_dir = create_topic_file(time_dir, one_blog)
+    time_dir = create_time_file()
+    event_news = event_name+'/'+one_blog
+    total_dir = create_topic_file(event_news, time_dir)
     print total_dir
     print "正在进行搜索并爬取..."
 
@@ -70,8 +72,10 @@ def start_search(time_dir, one_blog):
         print "转发数 ", repost_num
         print "评论数 ", comment_num
 
+        total_result_list[0].append(total_dir)
         result_dict.setdefault(one_blog, total_result_list[0])
-        # [blog_id,content,originator,originator_id,post_time,like_num,repost_num,comment_num])
+
+        # [blog_id,content,originator,originator_id,post_time,topic,like_num,repost_num,comment_num,total_dir])
     else:
         print "爬取失败"
 

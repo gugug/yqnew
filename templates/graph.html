@@ -3,6 +3,9 @@
 <head>
     {% load staticfiles %}
     <meta charset="UTF-8">
+    <script type="text/javascript">
+    var topic = '{{ topic }}';
+    </script>
     <link rel="stylesheet" href={% static "css/graph.css" %}>
     <link rel="stylesheet" href={% static "css/jqcloud.css" %}>
     <link rel="stylesheet" href={% static "css/perfect-scrollbar.css" %}>
@@ -26,6 +29,7 @@
     <div id="graph_1"></div>
     <!-- 微博转发网络图-->
     <div id="graph_2"></div>
+    <p>查看转发路径变化趋势</p>
     <!-- 新闻列表图-->
     <div id="graph_3">
         <div id="news_title">
@@ -143,4 +147,11 @@
             }]
         });
 
+$('p').click(
+    function(cdata) {
+        console.log('ok', cdata);
+{#        var topic =this.childNodes[0].nodeValue;#}
+        window.open('/repost/'+ topic);
+    });
 </script>
+

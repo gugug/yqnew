@@ -3,6 +3,9 @@
 <head>
     {% load staticfiles %}
     <meta charset="UTF-8">
+    <script type="text/javascript">
+    var topic = '{{ topic }}';
+    </script>
     <link rel="stylesheet" href={% static "css/allGraph.css" %}>
     <script type="text/javascript" src={% static "script/jquery-3.1.0.min.js" %}></script>
     <script type="text/javascript" src={% static "script/echarts/echarts.js" %}></script>
@@ -47,6 +50,7 @@
     $('.graph').css("height",width_1*0.75+'px');
     $('.graphs').css("height",width_1*1.3+'px');
     $('.graph_1').css("height",widths*0.75+'px');
+
 
 {#    $.getJSON("/static/data/allDatas.json",function(data){#}
 {##}

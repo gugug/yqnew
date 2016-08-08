@@ -142,8 +142,8 @@ class SearchTopic(WeiboPage):
         link = link_pattern.findall(fwd_link)
         fwd_link = link[0]
 
-        if int(fwd_num) > 15000:
-            forward_pages = 1500  # ps
+        if int(fwd_num) > 1500:
+            forward_pages = 150  # ps
         elif int(fwd_num) <= 10:
             forward_pages = 1
         else:

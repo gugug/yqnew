@@ -1,8 +1,8 @@
 # coding=utf-8
 __author__ = 'yc'
 
-import redis
-import redis.exceptions
+# import redis
+# import redis.exceptions
 import multiprocessing as mul
 
 from EventAnalysis.BlogSearch.main_crawler import *
@@ -15,19 +15,54 @@ from Emotion.e1 import *
 from EventAnalysis.info.attempt_three import *
 
 
-def discover_path():
+def aggregate(path_list):
     """
-    爬虫生成文件夹后,查找所有文件夹的路径,便于查找txt和xls文件
-    :return: 事件文件夹路径列表
+    把属于同一个事件的新闻数据聚合起来
+    :param path_list: 同事件的新闻文件夹路径
+    :return:
     """
-    path_list = []
-    for path, folders, files in os.walk(DOC_DIR):
-        if files.__len__() != 0:
-            path_list.append(path)
-    return path_list
+    split_path = path_list[0].split('/')
+    event = split_path[3]
+    time = split_path[5]
+    all_path = os.path.join(event,time)
+    folder_path = os.path.join(DOC_DIR,all_path)
+    if os.path.exists(folder_path):
+        pass
+    else:
+        os.mkdir(folder_path)
+    all_cmt = open(os.path.join(DOC_DIR,all_path,'comment.txt'),'a+')
+    all_par = open(os.path.join(DOC_DIR,all_path,'participants.txt'),'a+')
+    all_rpt = open(os.path.join(DOC_DIR,all_path,'repost_path.txt'),'a+')
+    for path in path_list:
+        cmt_file = open(os.path.join(path,'comment.txt'),'r')
+        all_cmt.writelines(cmt_file.readlines())
+        cmt_file.close()
+
+        par_file = open(os.path.join(path,'participants.txt'),'r')
+        all_par.writelines(par_file.readlines())
+        par_file.close()
+
+        rpt_file = open(os.path.join(path,'repost_path.txt'),'r')
+        all_rpt.writelines(rpt_file.readlines())
+        rpt_file.close()
+
+    all_rpt.close()
+    all_par.close()
+    all_cmt.close()
+    return all_path
+
+# def get_news_path():
+#     """
+#     从redis中获取同一个事件的新闻的文件路径列表
+#     :return:
+#     """
+#     rd = redis.Redis(password='uliuli520')
+#     path_list = rd.lrange('npfoe',0,-1)
+#     rd.delete('npfoe')
+#     return path_list
 
 
-if __name__ == '__main__':
+def main():
     db = Database()
     # r = redis.Redis(password='uliuli520')
     # pipe = r.pipeline()
@@ -44,21 +79,23 @@ if __name__ == '__main__':
             s += i
             s += ','
         event_id = db.check_keyword(keyword_list)
-        if event_id is None:
+        if event_id is None: # first time detected
             event_id = db.save_events(event[0], s, 'null')
+            path_list = main_weibo(event, event_id) # redis get news paths for one event
+            # ./documents/topic/【怪我不够好】/【就慢一点点，孙杨不哭！】/2016-08-07 19:52
+            event_path = aggregate(path_list)
+            db.update_event(event_id,event_path)
+            main_info(os.path.join(DOC_DIR,event_path))  # 年龄,地图
+            main_emotion(os.path.join(DOC_DIR,event_path))  # 情绪图
         else:
-            pass
-        main_weibo(event, event_id)
-        path =
-        # path_list = discover_path()
-        # for path in path_list:
-            main_network(path)  # 网络图
-            main_info(path)  # 年龄,地图
-            main_emotion(path)  # 情绪图
-            info_path = path.split('/',4)[4]
-            db.update_event(event_id,info_path)
+            path_list = main_weibo(event, event_id) # redis get news paths for one event
+            # ./documents/topic/【怪我不够好】/【就慢一点点，孙杨不哭！】/2016-08-07 19:52
+            event_path = aggregate(path_list)  # at a different time
+
+        main_network(os.path.join(DOC_DIR,event_path))
+        scale = db.get_numbers(event_id)
+        db.save_refresh(event_id,scale,event_path)
 
 
-
-            # pool=mul.Pool(processes=2)
-            # run=[main_network(),main_weibo()]
+if __name__ == '__main__':
+    main()

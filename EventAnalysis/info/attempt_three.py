@@ -18,8 +18,8 @@ headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:35.0) Gecko/2
 class Info(object):  # 根据用户名得到用户基本资料的类
 
     def __init__(self):  # 初始化
-        self.user = Momi.MoblieWeibo()
-        self.user.login('oktong668an@163.com', 'pachong13')
+        # self.user = Momi.MoblieWeibo()
+        # self.user.login('oktong668an@163.com', 'pachong13')
         self.areas = {
             '其他': 0, '北京': 0, '天津': 0, '上海': 0,
             '重庆': 0, '河北': 0, '山西': 0, '辽宁': 0,
@@ -167,7 +167,7 @@ class Info(object):  # 根据用户名得到用户基本资料的类
         else:
             self.age['其他'] += 1
 
-    def main(self, username):
+    def main_user_info(self, username):
         search_url = 'http://weibo.cn/find/user?keyword=%s&suser=1' % username  # 搜索结果页面链接
         search_page = self.get_page(search_url)
         firstone_table = self.get_firstone_infotable(search_page)
@@ -195,7 +195,7 @@ class Info(object):  # 根据用户名得到用户基本资料的类
         for row in range(0, len(self.areas)):
             table.write(row, 0, sorted_dict[row][0])
             table.write(row, 1, sorted_dict[row][1])
-        xls_file = os.path.join(path, 'test.xls')
+        xls_file = os.path.join(path, 'map.xls')
         xls.save(xls_file)
         return xls_file
 
@@ -205,8 +205,12 @@ class Info(object):  # 根据用户名得到用户基本资料的类
         :param xls_file: xls文件的路径
         :return:
         """
-        event_title = path.split('/')[-1]
-
+        event_title = path.split('/')[-2]
+        folder_path = os.path.join(JSON_DIR,event_title)
+        if os.path.exists(folder_path):
+            pass
+        else:
+            os.mkdir(folder_path)
         age = sorted(self.age.values())
         age_dict = {}
         age_dict.setdefault('ageDistribution', age)
@@ -238,17 +242,20 @@ def main_info(path):
     user_file = open(os.path.join(path, 'participants.txt'), 'r')
     participants = user_file.readlines()
 
-    for user in participants:
-        user_list.append(user.strip())
+    for each in participants:
+        user_list.append(each.strip())
 
     for username in user_list:
         start = time.time()
-        user.main(username)
-        xls_file = user.write_xls(path)
-        user.dump_json(xls_file, path)
+        try:
+            user.main_user_info(username)
+        except:
+            continue
         print time.time() - start
 
     user.show_user_info(path)
+    xls_file = user.write_xls(path)
+    user.dump_json(xls_file, path)
 
 # if __name__ == '__main__':
 #     user = Info()

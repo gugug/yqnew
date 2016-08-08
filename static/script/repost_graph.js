@@ -1,4 +1,4 @@
-$.getJSON("/static/data/name_list.json",function(data) {
+$.getJSON("/static/data/"+topic+"/name_list.json",function(data) {
 
     $("#nameList").append('<h4><center>' + data.nameList.join('，') + '</center></h4>')
 
@@ -45,7 +45,7 @@ $.getJSON("/static/data/name_list.json",function(data) {
         return res;
     };
 
-    $.getJSON("/static/data/repost_path7.json", function (data) {
+    $.getJSON("/static/data/"+topic+"/repost_path7.json", function (data) {
         var chart_0 = echarts.init(document.getElementById('graph_0'), null, {
             renderer: 'canvas'
         });
@@ -95,7 +95,7 @@ $.getJSON("/static/data/name_list.json",function(data) {
         });
     });
 
-    $.getJSON("/static/data/repost_path6.json", function (data) {
+    $.getJSON("/static/data/"+topic+"/repost_path6.json", function (data) {
         var chart_1 = echarts.init(document.getElementById('graph_1'), null, {
             renderer: 'canvas'
         });
@@ -147,7 +147,7 @@ $.getJSON("/static/data/name_list.json",function(data) {
 
     });
 
-    $.getJSON("/static/data/repost_path5.json", function (data) {
+    $.getJSON("/static/data/"+topic+"/repost_path5.json", function (data) {
         var chart_2 = echarts.init(document.getElementById('graph_2'), null, {
             renderer: 'canvas'
         });
@@ -198,7 +198,7 @@ $.getJSON("/static/data/name_list.json",function(data) {
         $('#view2').append('<p><center>检测时间：' + data.view.time + "</center></p>");
     });
 
-    $.getJSON("/static/data/repost_path4.json", function (data) {
+    $.getJSON("/static/data/"+topic+"/repost_path4.json", function (data) {
         var chart_3 = echarts.init(document.getElementById('graph_3'), null, {
             renderer: 'canvas'
         });
@@ -249,7 +249,7 @@ $.getJSON("/static/data/name_list.json",function(data) {
         $('#view3').append('<p><center>检测时间：' + data.view.time + "</center></p>");
     });
 
-    $.getJSON("/static/data/repost_path3.json", function (data) {
+    $.getJSON("/static/data/"+topic+"/repost_path3.json", function (data) {
         var chart_4 = echarts.init(document.getElementById('graph_4'), null, {
             renderer: 'canvas'
         });
@@ -300,7 +300,7 @@ $.getJSON("/static/data/name_list.json",function(data) {
         $('#view4').append('<p><center>检测时间：' + data.view.time + "</center></p>");
     });
 
-    $.getJSON("/static/data/repost_path2.json", function (data) {
+    $.getJSON("/static/data/"+topic+"/repost_path2.json", function (data) {
         var chart_5 = echarts.init(document.getElementById('graph_5'), null, {
             renderer: 'canvas'
         });
@@ -351,7 +351,7 @@ $.getJSON("/static/data/name_list.json",function(data) {
         $('#view5').append('<p><center>检测时间：' + data.view.time + "</center></p>");
     });
 
-    $.getJSON("/static/data/repost_path1.json", function (data) {
+    $.getJSON("/static/data/"+topic+"/repost_path1.json", function (data) {
         var chart_6 = echarts.init(document.getElementById('graph_6'), null, {
             renderer: 'canvas'
         });

@@ -2,40 +2,43 @@
 import datetime
 import sched
 import time
-from yqnew.settings import *
+import os
+# import redis
+
 __author__ = 'gu'
 
 s = sched.scheduler(time.time, time.sleep)
+BASE_DIR = './'
 
 def create_time_file():
     """
-    生成时间目录，但没有创建
+    生成时间
     :return:time_dir
     """
     try:
         now = datetime.datetime.now()
         other_style_time = now.strftime("%Y-%m-%d %H:%M")
-        time_dir = os.path.join(BASE_DIR, 'documents', 'topic', str(other_style_time))
-        return time_dir
+        return other_style_time
     except:
         pass
 
-
-def create_topic_file(time_dir,topic):
+def create_topic_file(topic, time_dir):
     """
-    接上上一个时间目录，生成话题文件
+    生成话题文件, 接上一个时间，
     :param: topic:
     :return:total_dir
     """
     try:
-        total_dir = time_dir + '/' + topic
+        total_dir = os.path.join(BASE_DIR, 'documents', 'topic', topic, time_dir)
         if os.path.exists(total_dir):
             print '语料目录已存在'
         else:
             os.makedirs(total_dir)
+        # print 'redis ndfoe prepared'
+        # rd = redis.Redis(password='uliuli520')
+        # rd.rpush('npfoe', total_dir)  # news path for one event = npfoe
         return total_dir
     except:
         pass
 
-# time_dir = create_time_file()
-# create_topic_file(time_dir,"认同")
+

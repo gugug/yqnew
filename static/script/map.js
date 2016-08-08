@@ -1,4 +1,4 @@
-$.getJSON("/static/data/map.json",function(data) {
+$.getJSON("/static/data/"+topic+"/map.json",function(data) {
     var chart_7 = echarts.init(document.getElementById('graph_7'), null, {
         renderer: 'canvas'
     });

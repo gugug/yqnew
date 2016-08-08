@@ -14,7 +14,7 @@
 	<div id="container">
 		<img src='{% static "img/title2.png" %}' alt="" id="title">
 		<img src='{% static "img/glasses2.png" %}' alt="" id="glasses">
-		<form id="search" action="{% url 'linechart' topic='#' %}" name="SearchForm" method="post" enctype="multipart/form-data">
+		<form id="search" action="{% url 'all_graph' topic='example' %}" name="SearchForm" method="post" enctype="multipart/form-data">
 			<input type="text" placeholder="搜索热点事件..." name="input_words" size="100">
 			<button type="submit">搜索</button>
 		</form>
@@ -31,7 +31,7 @@
                              {% for dict in data %}
 							<li>
                                 <a href="#" data-date="{{ dict.day }}/{{ dict.month }}/16">{{ dict.month }}月{{ dict.day }}日
-                                <p>{{ dict.etopic }}</p></a></li>
+                                <p>{{ dict.topic }}</p></a></li>
                                 {% endfor %}
 
                         </ol>
@@ -58,7 +58,7 @@
     function(cdata) {
         console.log('ok', cdata);
         var topic =this.childNodes[0].nodeValue;
-        window.open('/linechart/'+ topic);
+        window.open('/graphs/'+ topic);
     });
 {#            })#}
 	</script>

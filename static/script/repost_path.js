@@ -1,4 +1,4 @@
-$.getJSON('/static/data/repost_path7.json',function(data) {
+$.getJSON('/static/data/'+topic+'/repost_path7.json',function(data) {
     console.log(data.view.nodes.length);
     /*----------------chart 2---------------------*/
     var chart_2 = echarts.init(document.getElementById('graph_2'));

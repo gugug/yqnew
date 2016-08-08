@@ -23,26 +23,39 @@ class Database:
 
     def save_events(self,topic,keyword,info):
         with self.conn:
-            cur = self.conn(MySQLdb.cursors.DictCursor)
-            ist = "insert into event(topic,occur_time,keyword,information)" \
+            cur = self.conn.cursor(MySQLdb.cursors.DictCursor)
+            ist = "insert into event(topic,check_time,keyword,information)" \
                   " values ('%s',CURRENT_DATE() ,'%s','%s')" % (topic,keyword,info)
             cur.execute(ist)
-            cur.commit()
-            slt = "select event_id from event where event_id = max(event_id)"
+            slt = "select event_id from event order by event_id desc limit 1"
             cur.execute(slt)
             row = cur.fetchall()
-            eid = row[0]['event_id']
+            if len(row) == 0:
+                # cur.execute(slt)
+                # row = cur.fetchall()
+                print 'bug in save events!!!!!!'
+            else:
+                eid = row[0]['event_id']
+                cur.close()
+                print '事件id',eid
+                return eid
+
+    def save_refresh(self,eid,scale,network):
+        with self.conn:
+            cur = self.conn.cursor(MySQLdb.cursors.DictCursor)
+            sql = "insert into eventRefresh(event_id, scale_num,refresh_time,network) " \
+                  "values('%s','%s',NOW(),'%s')" % (eid,scale,network)
+            cur.execute(sql)
             cur.close()
-        return eid
+        return True
 
     def save_news(self, bid, eid, origin, ptime, title, content, cmt, rpt, lik):
         with self.conn:
             cur = self.conn.cursor(MySQLdb.cursors.DictCursor)
-            sql = "insert into news(blog_id, event_id,origin, post_time, title, content, comment_num, repost_num, like_num, refresh_time)" \
+            sql = "replace into news(blog_id, event_id,origin, post_time, title, content, comment_num, repost_num, like_num, refresh_time)" \
                   " values ('%s','%s', '%s','%s','%s','%s','%s','%s','%s',NOW())" % (
                       bid, eid, origin, ptime, title, content, cmt, rpt, lik)
             cur.execute(sql)
-            cur.commit()
             cur.close()
         return True
 
@@ -52,9 +65,63 @@ class Database:
             cur = self.conn.cursor(MySQLdb.cursors.DictCursor)
             sql = "update event set information = '%s' where event_id = '%s'" % (file_path,eid)
             cur.execute(sql)
-            cur.commit()
             cur.close()
 
+    def search_exact_topic(self,topic):
+        """
+        用于前端搜索框,正则匹配主题,选出对应事件的eid
+        :param topic:
+        :return:({event_id,etopic},{},...)
+        """
+        with self.conn:
+            cur = self.conn.cursor(MySQLdb.cursors.DictCursor)
+            sql = "SELECT DISTINCT event_id,topic FROM event WHERE topic ='%s'" % topic
+            cur.execute(sql)
+            rows = cur.fetchall()
+            if len(rows) == 0:
+                rows = ()
+                return rows
+            else:
+                return rows
+
+    def search_vague_topic(self, topic):
+        """
+        用于前端搜索框,正则匹配主题,选出对应事件的eid
+        :param topic:
+        :return:({event_id,etopic},{},...)
+        """
+        with self.conn:
+            cur = self.conn.cursor(MySQLdb.cursors.DictCursor)
+            sql = "SELECT DISTINCT event_id,topic FROM event WHERE topic LIKE '%"+topic+"%'"
+            cur.execute(sql)
+            rows = cur.fetchall()
+            if len(rows) == 0:
+                rows = ()
+                return rows
+            else:
+                return rows
+
+    def get_tiemline(self):
+        """
+        用于时间轴,提取事件与日期
+        :return:({'topic': u'111', 'day': 25L, 'month': 4L},)
+        """
+        with self.conn:
+            cur = self.conn.cursor(MySQLdb.cursors.DictCursor)
+            # sql = "SELECT DISTINCT topic, MONTH( post_time ) AS month, DAY( post_time ) AS day "\
+            #       "FROM (select * from event natural join networkscale WHERE label_dir !='None' limit 12) as temp"\
+            #         " GROUP BY DATE(post_time) ORDER BY post_time ASC  LIMIT 12"
+            sql = "SELECT DISTINCT topic, MONTH( check_time ) AS month, DAY( check_time ) AS day "\
+                  "FROM (select * from event limit 12) as temp"\
+                    " GROUP BY DATE(check_time) ORDER BY check_time ASC  LIMIT 12"
+            cur.execute(sql)
+            rows = cur.fetchall() #({},{}),({'topic': u'111', 'day': 25L, 'month': 4L},)
+            # print 'get timeline',rows
+            if len(rows) == 0:
+                default = ()
+                return default
+            else:
+                return rows
 
     def get_scale(self, eid):
         """
@@ -68,7 +135,7 @@ class Database:
             sql = "select scale_num from eventRefresh where event_id = '%s' order by refresh_id desc limit 10" % eid
             cur.execute(sql)
             result = cur.fetchall()  # ({})
-            if len(result) == 0:
+            if len(result) < 10:
                 data_list = [11, 11, 15, 13, 12, 13, 10, 13, 12, 9]
             else:
                 for i in result:
@@ -95,12 +162,35 @@ class Database:
         cur.close()
         return data_list
 
+    def get_numbers(self,eid):
+        """
+        从news表中取出同一个事件的评论,转发,点赞,计算总规模
+        :param eid: 事件id
+        :return:事件规模
+        """
+        with self.conn:
+            cur = self.conn.cursor(MySQLdb.cursors.DictCursor)
+            sql = "select sum(comment_num) as cmt, sum(repost_num) as rpt, sum(like_num) as lik from news where event_id ='%s'" % eid
+            cur.execute(sql)
+            result = cur.fetchall()
+            if len(result[0]) == 0:
+                print 'bug in getting numbers'
+                return 0
+            else:
+                scale = result[0]['cmt'] + result[0]['rpt'] + result[0]['lik']
+                return scale
+
     def get_news(self, eid):
+        """
+        获取新闻列表所需的数据并生成json文件
+        :param eid: 事件id
+        :return:
+        """
         news_dict = {'news': []}
 
         with self.conn:
             cur = self.conn.cursor(MySQLdb.cursors.DictCursor)
-            sql = "select title,content,post_time,origin from news where event_id = '%s' order by blog_id desc limit 6" \
+            sql = "select topic,title,content,post_time,origin from news natural join event where event_id = '%s' order by blog_id desc limit 6" \
                   % eid
             cur.execute(sql)
             result = cur.fetchall()
@@ -112,13 +202,18 @@ class Database:
                 news_dict['news'] = result
                 event_title = result[0]['topic']
             encode_json = json.dumps(news_dict, separators=(',', ':'))
-            print encode_json
+            # print encode_json
         cur.close()
         json_file = open(os.path.join(JSON_DIR, event_title, 'news.json'), 'w+')
         json_file.writelines(encode_json)
         return True
 
     def get_keyword(self, eid):
+        """
+        获取标签云图所需的数据并生成json文件
+        :param eid:
+        :return:
+        """
         keyword_dict = {'wordCloud': []}
 
         with self.conn:
@@ -128,26 +223,26 @@ class Database:
             result = cur.fetchall()
 
             if len(result) == 0:
-                result = ({'keyword': '傻逼'}, {'keyword': '二逼'}, {'keyword': '逗逼'}, {'keyword': '呆逼'})
-
+                result = ({'topic':'111','keyword':'aaa,bbb,ccc,ddd,'},)
+                event_title = '示例事件'
             else:
-                pass
+                event_title = result[0]['topic']
 
-            for i in result:
-                print i.values()
+            for i in result[0]['keyword'].split(','):
                 data_dict = {}
-                data_dict.setdefault('text', i.values())
+                data_dict.setdefault('text', i)
                 data_dict.setdefault('weight', str(random.randint(20, 90)))
-                print data_dict
+                # print data_dict
                 keyword_dict['wordCloud'].append(data_dict)
             encode_json = json.dumps(keyword_dict, separators=(',', ':'))
             print encode_json
         cur.close()
         # event_title =
-        json_file = open(os.path.join(JSON_DIR, 'wordcloud.json'), 'w+')
+        json_file = open(os.path.join(JSON_DIR, event_title, 'wordcloud.json'), 'w+')
         json_file.writelines(encode_json)
         json_file.close()
         return True
+
 
     def check_keyword(self,key_list):
         """
@@ -164,7 +259,10 @@ class Database:
                 print sql
                 cur.execute(sql)
                 rows = cur.fetchall()
-            if len(rows) != 0 :
+            if len(rows) == 0 :
+                continue
+            else:
+                print '有重复'
                 for dicts in rows:
                     id = dicts['event_id']
                     if id not in eid_list:
@@ -173,16 +271,14 @@ class Database:
                     else:
                         num = eid_list.index(id)
                         count_list[num] += 1
-                m = max(count_list)
-                if m >= 2:
-                    e_num = count_list.index(m)
-                    event_id = eid_list[e_num]
-                    return event_id
-                else:
-                    return None
+        if len(eid_list) ==0:
+            return None
+        else:
+            m = max(count_list)
+            if m >= 4:
+                e_num = count_list.index(m)
+                event_id = eid_list[e_num]
+                print '归于事件',event_id
+                return event_id
             else:
                 return None
-
-
-# Database().get_keyword('111')
-# Database().check_keyword('aaa')

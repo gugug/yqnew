@@ -9,6 +9,8 @@ urlpatterns=[
     # url(r'^linechart/(?P<topic>[^/]+)/$',line_chart,name='linechart'),
     url(r'graphs/$',graph,name='graph'),
     url(r'test/$',test,name='test'),
-    url(r'repost/$',repost,name='repost')
+    url(r'repost/(?P<topic>[^/]+)/$',repost,name='repost'),
+    url(r'index/$',index,name='index'),
+    url(r'graphs/(?P<topic>[^/]+)/$', all_graph, name='all_graph'),
 
 ]
