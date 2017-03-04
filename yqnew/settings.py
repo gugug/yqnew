@@ -83,11 +83,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'yqnew',#'fig',
-        'USER':'root',#'fig',
-        # 'PASSWORD':'123456',#'fig',
-        # 'HOST':'localhost',#'42.96.134.205',#'192.168.235.36',#'192.168.235.36',#'127.0.0.1',#'192.168.1.120', #'192.168.1.26',
-        'PASSWORD':'ViveMax2016',
-        'HOST':'42.96.134.205',
+        'USER':'username',
+        # 'PASSWORD':'password',
+        # 'HOST':'localhost',
+        'PASSWORD':'password',
+        'HOST':'42.*.*.*',
         'PORT':'3306',
     }
 }
