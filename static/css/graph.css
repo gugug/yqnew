@@ -60,7 +60,7 @@ abbr {
     width: 43%;
     /*height: 340px;*/
     overflow: hidden;
-    /* Ìí¼Ó¶¨Î» */
+    /* ï¿½ï¿½Ó¶ï¿½Î» */
     position: absolute;
     /*background-color: #00ccff;*/
     margin: 0;
@@ -97,6 +97,7 @@ h3 {
     font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
     width: 60%;
     cursor: default;
+    color: #555;
 }
 li img {
     float: left;

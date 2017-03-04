@@ -5,32 +5,122 @@
 	<title>首页</title>
     {% load staticfiles %}
 	<link rel="stylesheet" href={% static "css/reset.css" %} />
-	<link rel="stylesheet" href={% static "css/style.css" %}/>
+	<link rel="stylesheet" href={% static "css/index_style.css" %}/>
 	<link rel="stylesheet" href={% static "css/index.css" %} />
 	<script src={% static "script/modernizr.js" %}></script>
+    <script src="{% static 'script/jquery-3.1.0.min.js' %}" type="text/javascript"></script>
+	<script src="{% static 'script/main.js' %}"></script>
+    <style>
+        .news{
+            margin-top: 40px;
+           position: absolute;
+            left:50%;
+            margin-left: -290px;;
+        }
 
+        .news_container{
+            margin-bottom: 20px;
+            position: relative;
+            width: 580px;
+            height: 150px;
+            border: 2px solid #ddd;
+            overflow:hidden;
+            border-radius: 5px;
+        }
+        .news_box{
+            position: relative;
+            margin-top: 0;
+            margin-bottom: 0px;
+            padding-left: 0px;
+            list-style: none;
+            top: 0px;
+
+        }
+        .news_box li{
+            height: 30px;
+            line-height: 30px;
+            font-size: 16px;
+            text-indent: 1em;
+            color: #008758;
+            cursor:pointer;
+        }
+        .news_box li:hover{
+            background:#5CC595 ;
+            color: #fff;
+        }
+
+        .news_box li span{
+            float: right;
+            padding-right: 1em;
+            background: #5CC595;
+            color: #fff;
+        }
+        .cd-horizontal-timeline{
+            display: none;
+        }
+
+        .news button{
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            border-width: 0px;
+            background: #5CC595;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            outline: none;
+
+        }
+        .news button:hover{
+            background: #008758;
+        }
+        .news button#up{
+            margin-right: 20px;
+            margin-left: 240px;
+        }
+
+    </style>
 </head>
 <body>
 	<div id="container">
 		<img src='{% static "img/title2.png" %}' alt="" id="title">
 		<img src='{% static "img/glasses2.png" %}' alt="" id="glasses">
-		<form id="search" action="{% url 'all_graph' topic='example' %}" name="SearchForm" method="post" enctype="multipart/form-data">
+		<form id="search" action="{% url 'all_graph' topic='#' %}" name="SearchForm" method="post" enctype="multipart/form-data">
 			<input type="text" placeholder="搜索热点事件..." name="input_words" size="100">
 			<button type="submit">搜索</button>
 		</form>
-
+        <div class="news">
+            <div class="news_container">
+                <ol class="news_box">
+                    {% for dict in data %}
+                    <li>{{ dict.topic }}<span>{{ dict.month }}月{{ dict.day }}日</span></li>
+{#                    <li>哈根哈哈哈哈哈哈<span>9.18</span></li>#}
+{#                    <li>呼呼呼呼呼呼忽<span>9.18</span></li>#}
+{#                    <li>呼呼呼呼呼喊哈哈哈<span>9.18</span></li>#}
+{#                    <li>哈哈哈哈哈哈<span>9.18</span></li>#}
+{#                    <li>永远永远永远也有同样<span>9.18</span></li>#}
+{#                    <li>哦哦哦哦哦哦哦哦哦哦<span>9.18</span></li>#}
+{#                    <li>爬爬爬爬爬爬爬爬片<span>9.18</span></li>#}
+                    {% endfor %}
+                </ol>
+            </div>
+            <div class="news-button">
+                <button id="up" style="visibility:hidden;">上</button>
+                <button id="down">下</button>
+            </div>
+        </div>
 		<section class="cd-horizontal-timeline">
 
 			<div class="timeline">
 
 				<div class="events-wrapper">
-
+`
 					<div class="events" id="events">
 
                         <ol>
                              {% for dict in data %}
 							<li>
-                                <a href="#" data-date="{{ dict.day }}/{{ dict.month }}/16">{{ dict.month }}月{{ dict.day }}日
+                                <a target="_blank" href="#" data-date="{{ dict.day }}/{{ dict.month }}/16">{{ dict.month }}月{{ dict.day }}日
                                 <p>{{ dict.topic }}</p></a></li>
                                 {% endfor %}
 
@@ -48,11 +138,9 @@
 			</div> <!-- .timeline -->
 		</section>
 	</div>
-<script src="{% static 'script/jquery-3.1.0.min.js' %}" type="text/javascript"></script>
-	<script src="{% static 'script/main.js' %}"></script>
-		<script>
+<script>
 
-            $('p').click(
+            $('li').click(
 {#            function(){#}
 {#    $.post('{% url 'linechart' topic=' '%}', {'input_words':topic},#}
     function(cdata) {
@@ -62,6 +150,42 @@
     });
 {#            })#}
 	</script>
+    <script>
+        $(document).ready(function(){
+            var up = $('#up');
+            var down = $('#down');
+            var current_top = 0;
+            var li_count = $('.news_box li').length;
+            var li_show = 5;
 
+{#            up.css('visibility','hidden');#}
+            down.click(function(){
+                li_show++;
+                detect();
+                current_top = current_top - 30;
+                $('.news_box').css('top',current_top);
+            })
+            up.click(function(){
+                li_show--;
+                detect();
+                current_top = current_top +30;
+                $('.news_box').css('top',current_top);
+            })
+            function detect(){
+                if(li_show == 5){
+                    up.css("visibility",'hidden');
+                    down.css("visibility",'visible')
+                }else if(li_show == li_count){
+                    up.css("visibility",'visible');
+                    down.css("visibility",'hidden')
+                }else{
+                    up.css("visibility",'visible');
+                    down.css("visibility",'visible')
+                }
+            }
+
+        })
+
+    </script>
 </body>
 </html>

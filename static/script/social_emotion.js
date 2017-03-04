@@ -6,7 +6,11 @@ $.getJSON('/static/data/'+topic+'/social_emotion.json',function(data) {
     chart_6.setOption({
         title: {
             text: "社会情绪分布图",
-            left: 'center'
+            left: 'center',
+			textStyle: {
+				color: '#5CC595',
+                fontSize:30
+			}
         },
         legend: {
             x : 'center',

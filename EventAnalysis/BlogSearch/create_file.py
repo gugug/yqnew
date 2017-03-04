@@ -34,9 +34,6 @@ def create_topic_file(topic, time_dir):
             print '语料目录已存在'
         else:
             os.makedirs(total_dir)
-        # print 'redis ndfoe prepared'
-        # rd = redis.Redis(password='uliuli520')
-        # rd.rpush('npfoe', total_dir)  # news path for one event = npfoe
         return total_dir
     except:
         pass

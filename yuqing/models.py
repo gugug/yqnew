@@ -1,4 +1,7 @@
 # coding=utf-8
+def decode(info):
+    return info.decode('utf-8')
+
 from django.db import models
 from django.contrib import admin
 
@@ -6,7 +9,7 @@ from django.contrib import admin
 
 class Event(models.Model):
     event_id = models.IntegerField('事件id', primary_key=True)
-    topic = models.CharField('事件主题', max_length=100)
+    topic = models.CharField('事件主题', max_length=200)
     check_time = models.DateField('事件检测时间')
     keyword = models.CharField('关键词', max_length=50)
     information = models.CharField('事件统计信息文件路径', max_length=100)
@@ -24,7 +27,7 @@ class News(models.Model):
     # event_id = models.ForeignKey(Event, related_name='fk_news', to_field='event_id', null=True)
     origin = models.CharField('发起人昵称', max_length=20)
     post_time = models.DateTimeField('新闻发布时间')
-    title = models.CharField('新闻标题', max_length=20)
+    title = models.CharField('新闻标题', max_length=200)
     content = models.TextField('新闻内容', max_length=500)
     comment_num = models.IntegerField('评论数')
     repost_num = models.IntegerField('转发数')
@@ -46,7 +49,7 @@ class EventRefresh(models.Model):
     network = models.CharField('网络图路径', max_length=100)
 
     def __unicode__(self):
-        return u'%s %s' % (self.event_id, self.check_time)
+        return u'%s %s' % (self.event_id, self.refresh_time)
 
     class Meta:
         db_table = 'eventRefresh'

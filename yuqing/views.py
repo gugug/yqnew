@@ -7,14 +7,15 @@ from db_connection import *
 # Create your views here.
 
 def test(request):
-    return render_to_response('test.html')
+    return render_to_response('graphs.html')
 
 def repost(request,topic =''):
     # topic = 'example'
-    return render_to_response('repost_graph.html',{'topic':topic})
+    return render_to_response('allGraph.html',{'topic':topic})
 
 class SearchForm(forms.Form):
     input_words = forms.CharField(max_length=100)
+
 
 def all_graph(request,topic=''):
     db = Database()
@@ -24,30 +25,37 @@ def all_graph(request,topic=''):
         sf = SearchForm(request.POST)
         if sf.is_valid():
             search_words = sf.cleaned_data['input_words']
+            print search_words
             eid_tuple = db.search_vague_topic(search_words)  # ({eid,etp},{})
 
         else:
             print 'invalid form'
-    else:
+
+    else:  # GET
         eid_tuple = db.search_exact_topic(topic)
 
+
+
     if len(eid_tuple) == 0:
+        print 'no result'
         return render_to_response('error.html')
         # scale_list = [11, 11, 15, 13, 12, 13, 10,13,12,9]
         #
         # return render_to_response('graph.html',{'g1_data':scale_list,'topic':topic})
-
-    if len(eid_tuple) > 1:
+    elif len(eid_tuple) > 1:
+        print 'many events'
         event_list = []
         for i in eid_tuple:
             event_list.append(i)
         return render(request, 'list.html', {'event_list': event_list})
     else:
+        topic = eid_tuple[0]['topic']
+        print 'one event'
         event_id = eid_tuple[0]['event_id']
         scale_list = db.get_scale(event_id)
         db.get_keyword(event_id)
         db.get_news(event_id)
-        return render_to_response('graph.html',{'g1_data':scale_list,'topic':topic})
+        return render_to_response('graphs.html',{'g1_data':scale_list,'topic':topic})
 
 
 def graph(request):
@@ -73,8 +81,8 @@ def index(request):
         for j in range(len(result)):
             event_dict = result[j]
             data.append(event_dict) #[{}{}]
-    for i in data:
-        print 'data',i
+    # for i in data:
+        # print 'data',i
     # print data
     # data = [{'topic':u'烧鸡公双方了时间','month':4L,'day':30L},{'topic':u'222','month':4L,'day':15L},{'topic':u'111','month':4,'day':1}]
     # data = [{'a':'aaa'},{'b':'bbb'}]

@@ -25,12 +25,12 @@ define('echarts/chart/wordCloud', [
         z: 2,
         clickable: true,
         center: [
-            '50%',
-            '50%'
+            '90%',
+            '90%'
         ],
         size: [
-            '40%',
-            '40%'
+            '60%',
+            '60%'
         ],
         textRotation: [
             0,

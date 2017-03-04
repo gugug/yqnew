@@ -101,7 +101,7 @@ $.getJSON("/static/data/"+topic+"/name_list.json",function(data) {
         });
         chart_1.setOption({
             title: {
-                text: '第一次检测网络图',
+                text: '前一次检测网络图',
                 left: "center"
             },
             legend: {
@@ -153,7 +153,7 @@ $.getJSON("/static/data/"+topic+"/name_list.json",function(data) {
         });
         chart_2.setOption({
             title: {
-                text: '第二次检测网络图',
+                text: '前二次检测网络图',
                 left: "center"
             },
             legend: {
@@ -204,7 +204,7 @@ $.getJSON("/static/data/"+topic+"/name_list.json",function(data) {
         });
         chart_3.setOption({
             title: {
-                text: '第三次检测网络图',
+                text: '前三次检测网络图',
                 left: "center"
             },
             legend: {
@@ -255,7 +255,7 @@ $.getJSON("/static/data/"+topic+"/name_list.json",function(data) {
         });
         chart_4.setOption({
             title: {
-                text: '第四次检测网络图',
+                text: '前四次检测网络图',
                 left: "center"
             },
             legend: {
@@ -306,7 +306,7 @@ $.getJSON("/static/data/"+topic+"/name_list.json",function(data) {
         });
         chart_5.setOption({
             title: {
-                text: '第五次检测网络图',
+                text: '前五次检测网络图',
                 left: "center"
             },
             legend: {
@@ -357,7 +357,7 @@ $.getJSON("/static/data/"+topic+"/name_list.json",function(data) {
         });
         chart_6.setOption({
             title: {
-                text: '第六次检测网络图',
+                text: '前六次检测网络图',
                 left: "center"
             },
             legend: {

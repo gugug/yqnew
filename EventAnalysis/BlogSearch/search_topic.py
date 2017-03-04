@@ -23,21 +23,30 @@ class SearchTopic(WeiboPage):
         :param： 要搜索的内容，既是话题
         :return:
         """
-        topic_words = tpw
+        print type(tpw)
+        topic_words = str(tpw)
         print "正在搜索话题: ", topic_words
+        print type(topic_words)
         hot_url = 'http://weibo.cn/search/mblog/?keyword=' + str(
             urllib2.quote(topic_words)) + '&sort=hot'
+        print 'hot_url'
+        print hot_url
+        time.sleep(random.randint(1, 3))
         req = urllib2.Request(url=hot_url, headers=self.header)
         result_page = urllib2.urlopen(req).read()
+
+        print 'result_page000', result_page
 
         if "抱歉，未找到" not in result_page:
             return True
         else:
+            time.sleep(random.randint(1, 3))
             req = urllib2.Request(url=hot_url, headers=self.header)
             result_page = urllib2.urlopen(req).read()
             if "抱歉，未找到" in result_page:
                 return False
             else:
+                print 'fanhui'
                 return True
 
     def get_id_name(self, item):
@@ -102,22 +111,42 @@ class SearchTopic(WeiboPage):
                 informality_blog_time = blog_time_pattern1.findall(item)
             today_pattern = re.compile('今天')
             minago_pattern = re.compile('\d+分钟前')
-            t = time.strftime('%m' + '月' + '%d' + '日', time.localtime())
-            t = t.decode('utf-8')
-            formality_blog_time = re.sub(today_pattern, t, informality_blog_time[0])
-            formality_blog_time = re.sub(minago_pattern, t, formality_blog_time)
+            month_pattern = re.compile('月')
+            day_pattern = re.compile('日')
+
+            min_pp = time.strftime('%Y' + '-' + '%m' + '-' + '%d' + ' '+ '%H'+ ':'+'%M', time.localtime())
+            today_pp = time.strftime('%Y' + '-' + '%m' + '-' + '%d', time.localtime())
+            tm = min_pp.decode('utf-8')
+            th = today_pp.decode('utf-8')
+            formality_blog_time = re.sub(today_pattern, th, informality_blog_time[0])
+            formality_blog_time = re.sub(minago_pattern, tm, formality_blog_time)
+
+            if '月' in formality_blog_time:
+                formality_blog_time = re.sub(month_pattern,'-',formality_blog_time)
+
+                formality_blog_time = re.sub(day_pattern, '', formality_blog_time)
+                formality_blog_time = '2016-'+formality_blog_time
+
             if not formality_blog_time:
-                formality_blog_time = '0000-00-00'
+                now = datetime.datetime.now()
+                other_style_time = now.strftime("%Y-%m-%d %H:%M")
+                formality_blog_time = str(other_style_time)
+                print 'formality_blog_time', formality_blog_time
             return formality_blog_time
-        except:
-            pass
+        except Exception, e:
+            print e
+            now = datetime.datetime.now()
+            other_style_time = now.strftime("%Y-%m-%d %H:%M")
+            formality_blog_time = str(other_style_time)
+            return formality_blog_time
+
 
     def get_topic(self, content):
         """
         :param content:博文内容
         :return:博文主题
         """
-        topic_patternts = re.compile('【(.*?)】')
+        topic_patternts = re.compile('(【.*?】)')
         topic = topic_patternts.findall(content)
         if len(topic) > 0:
             topic_clean_pattern = re.compile('(\[.*?])')
@@ -142,8 +171,8 @@ class SearchTopic(WeiboPage):
         link = link_pattern.findall(fwd_link)
         fwd_link = link[0]
 
-        if int(fwd_num) > 1500:
-            forward_pages = 150  # ps
+        if int(fwd_num) > 200:
+            forward_pages = 20  # ps
         elif int(fwd_num) <= 10:
             forward_pages = 1
         else:
@@ -154,7 +183,11 @@ class SearchTopic(WeiboPage):
 
         forward_list = []
         forward_participants = []
+
         for f_page in range(1, forward_pages):
+            if f_page % 5 == 0:
+                time.sleep(random.randint(1,3))
+            print "在爬取转发页面"
             forward_url = str(fwd_link) + '&page=' + str(f_page)
             reason_list, f_participants = self.get_forward_common(forward_url)  # 爬取转发路径
             forward_list += reason_list
@@ -175,8 +208,8 @@ class SearchTopic(WeiboPage):
         link = link_pattern.findall(cmt_link)
         cmt_link = link[0]
 
-        if int(cmt_num) > 15000:
-            cmt_pages = 1500  # ps
+        if int(cmt_num) > 200:
+            cmt_pages = 20  # ps
         elif int(cmt_num) <= 10:
             cmt_pages = 1
         else:
@@ -188,6 +221,9 @@ class SearchTopic(WeiboPage):
         comment_list = []
         comment_participants = []
         for c_page in range(1, cmt_pages):
+            if c_page % 5 == 0:
+                time.sleep(random.randint(3, 7))
+            print "在爬取评论页面"
             cmt_url = str(cmt_link) + '&page=' + str(c_page)
             comment, participants = self.get_comment_common(cmt_url)
             comment_list += comment
@@ -217,8 +253,10 @@ class SearchTopic(WeiboPage):
         total_participants = [[阿猫,阿狗]] 搜索结果的转发评论的参与人
         """
         try:
-            topic_words = search_content
-
+            print 'search_content', type(search_content)
+            topic_words = str(search_content)
+            print topic_words
+            print 'topic_words', type(topic_words)
             total_result_list = []
             total_reason_list = []
             total_comment_list = []
@@ -226,51 +264,55 @@ class SearchTopic(WeiboPage):
             big_v_num = 0
 
             page_num = self.is_topic(topic_words)
+            print 'page_num', page_num
             if page_num:
                 page = 1
+
+                time.sleep(random.randint(3, 7))
                 pageurl = 'http://weibo.cn/search/mblog?keyword=' + str(
                     urllib2.quote(topic_words)) + '&sort=hot&page=' + str(page)
                 req = urllib2.Request(url=pageurl, headers=self.header)
                 result_turn_page = urllib2.urlopen(req).read()
-
+                print 'result_turn_page', result_turn_page
                 issuer_pattern = re.compile('<div class="c" (id.*?)<div class="s"></div>')  # 把每个人的一个整个匹配下来
                 issuer = issuer_pattern.findall(result_turn_page)
+                if len(issuer) == 0:
+                    issuer_pattern = re.compile('<div class="c" (id.*?)&nbsp;来自')  # 把每个人的一个整个匹配下来
+                    issuer = issuer_pattern.findall(result_turn_page)
                 rpt_reason_list = []
+                print 'len_issuer', len(issuer)
                 if len(issuer) > 0:
-                    item = issuer[0]  # 对第一个结果处理
-                    if 'alt="V"/>' in item:
-                        big_v_num += 1
-                        user_id, user_name = self.get_id_name(item)
-                        blog_id = self.get_blog_id(item)
-                        content = self.get_content(item)
-                        topic = self.get_topic(content)
-                        like_num, rpt_num, cmt_num, forward_url, comment_url = self.get_nums_link(item)
-                        ptime = self.get_time(item)
-                        no_repeat_reason_list, forward_participants = self.get_forward(rpt_num, forward_url)
-                        comment_list, comment_participants = self.get_comment(cmt_num, comment_url)
-                        participants = self.get_participants(forward_participants, comment_participants)
+                    for one_issuer in issuer:
+                        if 'alt="V"/>' in one_issuer:
+                            item = one_issuer
+                            big_v_num += 1
+                            user_id, user_name = self.get_id_name(item)
+                            blog_id = self.get_blog_id(item)
+                            content = self.get_content(item)
+                            topic = self.get_topic(content)
+                            like_num, rpt_num, cmt_num, forward_url, comment_url = self.get_nums_link(item)
+                            ptime = self.get_time(item)
+                            no_repeat_reason_list, forward_participants = self.get_forward(rpt_num, forward_url)
+                            comment_list, comment_participants = self.get_comment(cmt_num, comment_url)
+                            participants = self.get_participants(forward_participants, comment_participants)
 
-                        result_list = [blog_id, content, user_name, user_id, ptime, topic,
-                                       like_num, rpt_num, cmt_num]
-                        total_result_list.append(result_list)
+                            result_list = [blog_id, content, user_name, user_id, ptime, topic,
+                                           like_num, rpt_num, cmt_num]
+                            total_result_list.append(result_list)
 
-                        total_comment_list.append(comment_list)
-                        total_participants.append(participants)
+                            total_comment_list.append(comment_list)
+                            total_participants.append(participants)
 
-                        for reason in no_repeat_reason_list:
-                            rpt_reason_list.append(str(reason) + '//@' + user_name + ":")
-                        total_reason_list.append(rpt_reason_list)
+                            for reason in no_repeat_reason_list:
+                                rpt_reason_list.append(str(reason) + '//@' + user_name + ":")
+                            total_reason_list.append(rpt_reason_list)
+                            return total_result_list, total_reason_list, total_comment_list, total_participants
 
-                    else:
-                        # issuer_id_name_pattern = re.compile(
-                        #     '<a class="nk" href="http://weibo.cn/(.*?)">(.*?)</a>')  # 匹配一段里面的名字和id
-                        # issuer_id_name = issuer_id_name_pattern.findall(item)
-                        # print "非大v博文用户id和名字", issuer_id_name[0][0], issuer_id_name[0][1]
-                        pass
                 else:
-                    pass
+                    print '这里'
+                    return None
             else:
-                pass
-            return total_result_list, total_reason_list, total_comment_list, total_participants
-        except:
-            pass
+                print '那里'
+        except():
+            print '好的'
+            return None

@@ -99,7 +99,7 @@ class WeiboPage:
         # )
         # forward_participants = forward_participants_pattern.findall(forward_page)
         """
-
+        time.sleep(random.randint(1, 4))
         req = urllib2.Request(url=forward_url, headers=self.header)
         forward_page = urllib2.urlopen(req).read()
         time.sleep(int(random.uniform(0, 2)))
@@ -138,7 +138,7 @@ class WeiboPage:
         """
         comment_list = []
         comment_participants = []
-
+        time.sleep(random.randint(1, 4))
         req = urllib2.Request(url=cmt_url, headers=self.header)
         comment_page = urllib2.urlopen(req).read()
         time.sleep(int(random.uniform(0, 2)))

@@ -20,14 +20,14 @@
 <body>
     您要找的事件是?
 {% for dict in event_list %}
-    <a href="#"><p>{{ dict.etopic }}</p></a>
+    <a href="#"><p>{{ dict.topic }}</p></a>
 {% endfor %}
 <script>
 $('p').click(
     function(cdata) {
         console.log('ok', cdata);
         var topic =this.childNodes[0].nodeValue;
-        window.open('/graph/'+ topic+'/');
+        window.open('/graphs/'+ topic+'/');
     });
 </script>
 </body>

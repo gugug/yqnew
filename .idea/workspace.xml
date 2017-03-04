@@ -1,7 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/main_all.py" line="45" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc268f2-9a54-4cbd-b042-c8cc191f61a1" name="Default" comment="" />
+    <list default="true" id="6fc268f2-9a54-4cbd-b042-c8cc191f61a1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EventAnalysis/BlogSearch/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EventAnalysis/BlogSearch/ww.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/graph_style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【乔任梁去世追思会9月22日上午9时上海举行】/repost_path4.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【乔任梁去世追思会9月22日上午9时上海举行】/repost_path5.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【乔任梁去世追思会9月22日上午9时上海举行】/repost_path6.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【乔任梁去世追思会9月22日上午9时上海举行】/repost_path7.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【太惨！女司机疑看手机压过3个小孩】/repost_path5.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【太惨！女司机疑看手机压过3个小孩】/repost_path6.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【嫌大妈跳广场舞太吵，居民自制“水枪”扫射】/repost_path6.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【嫌大妈跳广场舞太吵，居民自制“水枪”扫射】/repost_path7.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【李克强会见法国总统奥朗德】/repost_path4.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【李克强会见法国总统奥朗德】/repost_path5.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【李克强会见法国总统奥朗德】/repost_path6.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【李克强会见法国总统奥朗德】/repost_path7.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【网曝山东高速两车斗气“自杀式撞击” 警方介入调查】/repost_path7.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【老布什表示将投票给希拉里】/repost_path3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【老布什表示将投票给希拉里】/repost_path4.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【老布什表示将投票给希拉里】/repost_path5.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/【老布什表示将投票给希拉里】/repost_path6.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/送别乔任梁 乔任梁曾在朋友圈写下前提是问心无愧/repost_path5.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/送别乔任梁 乔任梁曾在朋友圈写下前提是问心无愧/repost_path6.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/陈乔恩哭了/repost_path4.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/陈乔恩哭了/repost_path5.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/陈乔恩哭了/repost_path6.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/data/陈乔恩哭了/repost_path7.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/example/wordcloud.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/script/graph.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EventAnalysis/info/Momi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EventAnalysis/info/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EventAnalysis/info/attempt_three.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EventAnalysis/info/info.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EventAnalysis/info/test.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/2016-08-08 17:08/comment.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/2016-08-08 17:08/info.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/2016-08-08 17:08/label_link.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/2016-08-08 17:08/map.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/2016-08-08 17:08/participants.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/2016-08-08 17:08/repost_path.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/【中国奥运首金！女子10米气手枪张梦雪夺冠！ 】/2016-08-08 17:08/comment.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/【中国奥运首金！女子10米气手枪张梦雪夺冠！ 】/2016-08-08 17:08/participants.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/【中国奥运首金！女子10米气手枪张梦雪夺冠！ 】/2016-08-08 17:08/repost_path.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/【中国首金！女子10米气手枪决赛张梦雪夺冠！】/2016-08-08 17:08/comment.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/【中国首金！女子10米气手枪决赛张梦雪夺冠！】/2016-08-08 17:08/participants.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/【中国首金！女子10米气手枪决赛张梦雪夺冠！】/2016-08-08 17:08/repost_path.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/【中国首金！张梦雪！[给力]】/2016-08-08 17:08/comment.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/【中国首金！张梦雪！[给力]】/2016-08-08 17:08/participants.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/【中国首金！张梦雪！[给力]】/2016-08-08 17:08/repost_path.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/【中国首金！张梦雪！】/2016-08-08 17:08/comment.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/【中国首金！张梦雪！】/2016-08-08 17:08/participants.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents/topic/【中国首金！张梦雪！[给力]】/【中国首金！张梦雪！】/2016-08-08 17:08/repost_path.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/【中国首金！张梦雪！[给力]】/age_distribution.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/【中国首金！张梦雪！[给力]】/map.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/【中国首金！张梦雪！[给力]】/name_list.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/【中国首金！张梦雪！[给力]】/news.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/【中国首金！张梦雪！[给力]】/repost_path7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/【中国首金！张梦雪！[给力]】/social_emotion.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/【中国首金！张梦雪！[给力]】/wordcloud.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/【涂鸦北京13处景观的“陈志成” 已现身道歉】/wordcloud.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/title.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/data/example/age_distribution.json" afterPath="$PROJECT_DIR$/static/example/age_distribution.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/data/example/datas.json" afterPath="$PROJECT_DIR$/static/example/datas.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/data/example/map.json" afterPath="$PROJECT_DIR$/static/example/map.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/data/example/name_list.json" afterPath="$PROJECT_DIR$/static/example/name_list.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/data/example/news1.json" afterPath="$PROJECT_DIR$/static/example/news1.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/data/example/repost_path1.json" afterPath="$PROJECT_DIR$/static/example/repost_path1.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/data/example/repost_path2.json" afterPath="$PROJECT_DIR$/static/example/repost_path2.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/data/example/repost_path3.json" afterPath="$PROJECT_DIR$/static/example/repost_path3.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/data/example/repost_path4.json" afterPath="$PROJECT_DIR$/static/example/repost_path4.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/data/example/repost_path5.json" afterPath="$PROJECT_DIR$/static/example/repost_path5.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/data/example/repost_path6.json" afterPath="$PROJECT_DIR$/static/example/repost_path6.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/data/example/repost_path7.json" afterPath="$PROJECT_DIR$/static/example/repost_path7.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/data/example/social_emotion.json" afterPath="$PROJECT_DIR$/static/example/social_emotion.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KeyExtract" afterPath="$PROJECT_DIR$/KeyExtract" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/title2.png" afterPath="$PROJECT_DIR$/static/img/title2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Emotion/e1.py" afterPath="$PROJECT_DIR$/Emotion/e1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EventAnalysis/BlogSearch/crawl_weibo.py" afterPath="$PROJECT_DIR$/EventAnalysis/BlogSearch/crawl_weibo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EventAnalysis/BlogSearch/create_file.py" afterPath="$PROJECT_DIR$/EventAnalysis/BlogSearch/create_file.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EventAnalysis/BlogSearch/main_crawler.py" afterPath="$PROJECT_DIR$/EventAnalysis/BlogSearch/main_crawler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EventAnalysis/BlogSearch/search_topic.py" afterPath="$PROJECT_DIR$/EventAnalysis/BlogSearch/search_topic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EventAnalysis/BlogSearch/start_search.py" afterPath="$PROJECT_DIR$/EventAnalysis/BlogSearch/start_search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EventAnalysis/links_labels.py" afterPath="$PROJECT_DIR$/EventAnalysis/links_labels.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EventDectection/EventDection.py" afterPath="$PROJECT_DIR$/EventDectection/EventDection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EventDectection/NewsDection.py" afterPath="$PROJECT_DIR$/EventDectection/NewsDection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EventDectection/cluster.py" afterPath="$PROJECT_DIR$/EventDectection/cluster.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a_cleanup.py" afterPath="$PROJECT_DIR$/a_cleanup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_connection.py" afterPath="$PROJECT_DIR$/db_connection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_all.py" afterPath="$PROJECT_DIR$/main_all.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/allGraph.css" afterPath="$PROJECT_DIR$/static/css/allGraph.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/graph.css" afterPath="$PROJECT_DIR$/static/css/graph.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/index.css" afterPath="$PROJECT_DIR$/static/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/jqcloud.css" afterPath="$PROJECT_DIR$/static/css/jqcloud.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/script/age_distribution.js" afterPath="$PROJECT_DIR$/static/script/age_distribution.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/script/echarts/wordCloud.js" afterPath="$PROJECT_DIR$/static/script/echarts/wordCloud.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/script/map.js" afterPath="$PROJECT_DIR$/static/script/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/script/news.js" afterPath="$PROJECT_DIR$/static/script/news.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/script/repost_graph.js" afterPath="$PROJECT_DIR$/static/script/repost_graph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/script/repost_path.js" afterPath="$PROJECT_DIR$/static/script/repost_path.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/script/social_emotion.js" afterPath="$PROJECT_DIR$/static/script/social_emotion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/error.html" afterPath="$PROJECT_DIR$/templates/error.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/graph_original.html" afterPath="$PROJECT_DIR$/templates/graph_original.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/list.html" afterPath="$PROJECT_DIR$/templates/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/test.html" afterPath="$PROJECT_DIR$/templates/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yqnew/__init__.py" afterPath="$PROJECT_DIR$/yqnew/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yqnew/settings.py" afterPath="$PROJECT_DIR$/yqnew/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yqnew/urls.py" afterPath="$PROJECT_DIR$/yqnew/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yqnew/wsgi.py" afterPath="$PROJECT_DIR$/yqnew/wsgi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yuqing/__init__.py" afterPath="$PROJECT_DIR$/yuqing/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yuqing/admin.py" afterPath="$PROJECT_DIR$/yuqing/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yuqing/migrations/__init__.py" afterPath="$PROJECT_DIR$/yuqing/migrations/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yuqing/models.py" afterPath="$PROJECT_DIR$/yuqing/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yuqing/myurls.py" afterPath="$PROJECT_DIR$/yuqing/myurls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yuqing/tests.py" afterPath="$PROJECT_DIR$/yuqing/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yuqing/views.py" afterPath="$PROJECT_DIR$/yuqing/views.py" />
+    </list>
     <ignored path="yqnew.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -14,144 +137,140 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/yqnew$tt.coverage" NAME="tt Coverage Results" MODIFIED="1471186972672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/documents/topic1/【王宝强发声明离婚：妻子与经纪人有不正当关系】/2016-08-14 22:03:47" />
     <SUITE FILE_PATH="coverage/yqnew$e1.coverage" NAME="e1 Coverage Results" MODIFIED="1470131417190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Emotion" />
-    <SUITE FILE_PATH="coverage/yqnew$a_cleanup.coverage" NAME="a_cleanup Coverage Results" MODIFIED="1470647192591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yqnew$main_all.coverage" NAME="main_all Coverage Results" MODIFIED="1470647236410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yqnew$tests.coverage" NAME="tests Coverage Results" MODIFIED="1470198370975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yuqing" />
-    <SUITE FILE_PATH="coverage/yqnew$EventDection.coverage" NAME="EventDection Coverage Results" MODIFIED="1470311584893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EventDectection" />
-    <SUITE FILE_PATH="coverage/yqnew$links_labels.coverage" NAME="links_labels Coverage Results" MODIFIED="1470304608802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EventAnalysis" />
-    <SUITE FILE_PATH="coverage/yqnew$db_connection.coverage" NAME="db_connection Coverage Results" MODIFIED="1470567700400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yqnew$attempt_three.coverage" NAME="attempt_three Coverage Results" MODIFIED="1470296050864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EventAnalysis/info" />
     <SUITE FILE_PATH="coverage/yqnew$key_extract.coverage" NAME="key_extract Coverage Results" MODIFIED="1469885322186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KeyExtract" />
+    <SUITE FILE_PATH="coverage/yqnew$start_search.coverage" NAME="start_search Coverage Results" MODIFIED="1471677688739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EventAnalysis/BlogSearch" />
+    <SUITE FILE_PATH="coverage/yqnew$db_connection.coverage" NAME="db_connection Coverage Results" MODIFIED="1474116572740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yqnew$Test__static_data__age_distribution_json.coverage" NAME="Test: static.data.【如果你记得今天，请转发微博传递历史！】.age_distribution.json Coverage Results" MODIFIED="1474350386590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/yqnew$tests.coverage" NAME="tests Coverage Results" MODIFIED="1470198370975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yuqing" />
+    <SUITE FILE_PATH="coverage/yqnew$search_topic.coverage" NAME="search_topic Coverage Results" MODIFIED="1471798709880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EventAnalysis/BlogSearch" />
+    <SUITE FILE_PATH="coverage/yqnew$put_username.coverage" NAME="put_username Coverage Results" MODIFIED="1471179942695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EventAnalysis/RedisDj/Crawler" />
+    <SUITE FILE_PATH="coverage/yqnew$main_all.coverage" NAME="main_all Coverage Results" MODIFIED="1474633571730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yqnew$EventDection.coverage" NAME="EventDection Coverage Results" MODIFIED="1471872188348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EventDectection" />
+    <SUITE FILE_PATH="coverage/yqnew$test.coverage" NAME="test Coverage Results" MODIFIED="1474431973146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EventAnalysis/BlogSearch" />
+    <SUITE FILE_PATH="coverage/yqnew$combine_txt.coverage" NAME="combine_txt Coverage Results" MODIFIED="1471619773174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EventAnalysis/RedisDj/Crawler" />
+    <SUITE FILE_PATH="coverage/yqnew$copy_file.coverage" NAME="copy_file Coverage Results" MODIFIED="1471594715087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yqnew$a_cleanup.coverage" NAME="a_cleanup Coverage Results" MODIFIED="1474209792460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yqnew$RedisQueue.coverage" NAME="RedisQueue Coverage Results" MODIFIED="1471179561483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EventAnalysis/RedisDj/Crawler" />
+    <SUITE FILE_PATH="coverage/yqnew$views.coverage" NAME="views Coverage Results" MODIFIED="1474207765796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yuqing" />
+    <SUITE FILE_PATH="coverage/yqnew$cluster.coverage" NAME="cluster Coverage Results" MODIFIED="1471872178252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EventDectection" />
+    <SUITE FILE_PATH="coverage/yqnew$attempt_three.coverage" NAME="attempt_three Coverage Results" MODIFIED="1470296050864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EventAnalysis/info" />
+    <SUITE FILE_PATH="coverage/yqnew$connection.coverage" NAME="connection Coverage Results" MODIFIED="1471177891597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/lib/python2.7/dist-packages/redis" />
     <SUITE FILE_PATH="coverage/yqnew$main_crawler.coverage" NAME="main_crawler Coverage Results" MODIFIED="1470554045278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EventAnalysis/BlogSearch" />
+    <SUITE FILE_PATH="coverage/yqnew$candidate_words.coverage" NAME="candidate_words Coverage Results" MODIFIED="1471577496906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KeyExtract" />
+    <SUITE FILE_PATH="coverage/yqnew$tt__1_.coverage" NAME="tt (1) Coverage Results" MODIFIED="1471186127664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/static/data/【王宝强发声明离婚：妻子与经纪人有不正当关系】/2016-08-14 22:03:47" />
+    <SUITE FILE_PATH="coverage/yqnew$links_labels.coverage" NAME="links_labels Coverage Results" MODIFIED="1470304608802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EventAnalysis" />
+    <SUITE FILE_PATH="coverage/yqnew$down_username.coverage" NAME="down_username Coverage Results" MODIFIED="1471532304970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EventAnalysis/RedisDj/Crawler" />
+    <SUITE FILE_PATH="coverage/yqnew$NewsDection.coverage" NAME="NewsDection Coverage Results" MODIFIED="1471686983874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EventDectection" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="yqnew" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main_all.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main_all.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="2" selection-end-line="61" selection-end-column="22" />
-              <folding>
-                <element signature="e#75#104#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="repost_path7.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/data/【中国首金！张梦雪！[给力]】/repost_path7.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="links_labels.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EventAnalysis/links_labels.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="287" column="22" selection-start-line="287" selection-start-column="22" selection-end-line="287" selection-end-column="22" />
-              <folding>
-                <element signature="e#2690#3497#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yuqing/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db_connection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_connection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="284" column="0" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
-              <folding>
-                <element signature="e#34#48#0" expanded="true" />
-                <marker date="1470655171602" expanded="true" signature="600:718" placeholder="insert into ..." />
-                <marker date="1470655171602" expanded="true" signature="791:848" placeholder="select event..event..." />
-                <marker date="1470655171602" expanded="true" signature="1365:1483" placeholder="insert into ..." />
-                <marker date="1470655171602" expanded="true" signature="2322:2379" placeholder="update event..." />
-                <marker date="1470655171602" expanded="true" signature="2722:2781" placeholder="SELECT DISTI..event..." />
-                <marker date="1470655171602" expanded="true" signature="3256:3328" placeholder="SELECT DISTI..event..." />
-                <marker date="1470655171602" expanded="true" signature="4068:4295" placeholder="SELECT DISTI..." />
-                <marker date="1470655171602" expanded="true" signature="4841:4931" placeholder="select scale..eventRefresh..." />
-                <marker date="1470655171602" expanded="true" signature="5490:5577" placeholder="select netwo..eventRefresh..." />
-                <marker date="1470655171602" expanded="true" signature="6109:6216" placeholder="select sum(c..news..." />
-                <marker date="1470655171602" expanded="true" signature="6788:6912" placeholder="select topic..news..." />
-                <marker date="1470655171602" expanded="true" signature="7865:7918" placeholder="select topic..event..." />
-                <marker date="1470655171602" expanded="true" signature="9154:9206" placeholder="select event..event..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="name_list.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/data/【中国首金！张梦雪！[给力]】/name_list.json">
+        <entry file="file://$PROJECT_DIR$/static/data/【直击现场：纽约曼哈顿发生爆炸】/name_list.json">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+              <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start_search.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EventAnalysis/BlogSearch/start_search.py">
+      <file leaf-file-name="wordcloud.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/data/【太惨！女司机疑看手机压过3个小孩】/wordcloud.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-              <folding>
-                <element signature="e#16#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_file.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EventAnalysis/BlogSearch/create_file.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="attempt_three.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EventAnalysis/info/attempt_three.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="238" column="20" selection-start-line="238" selection-start-column="20" selection-end-line="238" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/KeyExtract/readme">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="social_emotion.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/data/【太惨！女司机疑看手机压过3个小孩】/social_emotion.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="288" selection-start-line="0" selection-start-column="288" selection-end-line="0" selection-end-column="288" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="social_emotion.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/data/【网曝山东高速两车斗气“自杀式撞击” 警方介入调查】/social_emotion.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="132" selection-start-line="0" selection-start-column="132" selection-end-line="0" selection-end-column="132" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="social_emotion.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/data/【深圳女孩游华山失踪后被发现，尸体高度腐烂】/social_emotion.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="249" selection-start-line="0" selection-start-column="249" selection-end-line="0" selection-end-column="249" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="social_emotion.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/data/【直击现场：纽约曼哈顿发生爆炸】/social_emotion.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="133" selection-start-line="0" selection-start-column="133" selection-end-line="0" selection-end-column="133" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graphs.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/graphs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-21.866667">
+              <caret line="142" column="51" selection-start-line="142" selection-start-column="51" selection-end-line="142" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/error.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5233119">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.566667">
+              <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graph_style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/graph_style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.5">
+              <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -163,79 +282,81 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Html5" />
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/EventAnalysis/BlogSearch/make_json.py" />
-        <option value="$PROJECT_DIR$/static/data/datas.json" />
-        <option value="$PROJECT_DIR$/static/data/wordcloud.json" />
-        <option value="$PROJECT_DIR$/static/data/age.json" />
-        <option value="$PROJECT_DIR$/static/data/social_emotion.json" />
-        <option value="$PROJECT_DIR$/static/data/cities.json" />
-        <option value="$PROJECT_DIR$/static/data/news.json" />
-        <option value="$PROJECT_DIR$/static/data/news1.json" />
-        <option value="$PROJECT_DIR$/static/data/age_distribution0.json" />
-        <option value="$PROJECT_DIR$/static/data/repost_path0.json" />
-        <option value="$PROJECT_DIR$/EventAnalysis/BlogSearch/db_connection.py" />
-        <option value="$PROJECT_DIR$/emotion/__init__.py" />
-        <option value="$PROJECT_DIR$/static/data/social_emotion0.json" />
-        <option value="$PROJECT_DIR$/EventAnalysis/info/__init__.py" />
-        <option value="$PROJECT_DIR$/KeyExtract/key_extract.py" />
-        <option value="$PROJECT_DIR$/yuqing/models.py" />
-        <option value="$PROJECT_DIR$/yqnew/settings.py" />
-        <option value="$PROJECT_DIR$/yuqing/tests.py" />
-        <option value="$PROJECT_DIR$/static/script/graph.js" />
-        <option value="$PROJECT_DIR$/static/data/map0.json" />
-        <option value="$PROJECT_DIR$/templates/test.html" />
-        <option value="$PROJECT_DIR$/static/script/map1.js" />
-        <option value="$PROJECT_DIR$/static/data/repost_path7.json" />
-        <option value="$PROJECT_DIR$/static/data/repost_path5.json" />
-        <option value="$PROJECT_DIR$/static/data/repost_path.json" />
+        <option value="$PROJECT_DIR$/EventAnalysis/links_labels.py" />
+        <option value="$PROJECT_DIR$/EventAnalysis/BlogSearch/start_search.py" />
+        <option value="$PROJECT_DIR$/EventAnalysis/BlogSearch/create_file.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/EventDectection/cluster.py" />
         <option value="$PROJECT_DIR$/EventDectection/EventDection.py" />
-        <option value="$PROJECT_DIR$/templates/list.html" />
-        <option value="$PROJECT_DIR$/templates/repost_graph.html" />
-        <option value="$PROJECT_DIR$/static/script/repost_graph.js" />
-        <option value="$PROJECT_DIR$/static/script/repost_path.js" />
+        <option value="$PROJECT_DIR$/EventAnalysis/RedisDj/Crawler/combine_txt.py" />
+        <option value="$PROJECT_DIR$/static/data/【兰州高校撤开除癌症女教师决定 人事处长被停职】/repost_path7.json" />
+        <option value="$PROJECT_DIR$/static/script/news.js" />
+        <option value="$PROJECT_DIR$/yuqing/views.py" />
+        <option value="$PROJECT_DIR$/yuqing/myurls.py" />
+        <option value="$PROJECT_DIR$/static/script/index.js" />
+        <option value="$PROJECT_DIR$/templates/allGraph.html" />
+        <option value="$PROJECT_DIR$/yqnew/settings.py" />
+        <option value="$PROJECT_DIR$/EventAnalysis/RedisDj/Crawler/main_hunter.py" />
+        <option value="$PROJECT_DIR$/EventAnalysis/RedisDj/Crawler/down_username.py" />
+        <option value="$PROJECT_DIR$/a_cleanup.py" />
+        <option value="$PROJECT_DIR$/EventAnalysis/BlogSearch/search_topic.py" />
+        <option value="$PROJECT_DIR$/static/data/【邱少云之弟起诉孙杰、加多宝纠纷案一审宣判：道歉并赔1元】/repost_path7.json" />
+        <option value="$PROJECT_DIR$/static/data/【邱少云之弟起诉孙杰、加多宝纠纷案一审宣判：道歉并赔1元】/repost_path6.json" />
+        <option value="$PROJECT_DIR$/EventDectection/NewsDection.py" />
+        <option value="$PROJECT_DIR$/static/script/echarts/wordCloud.js" />
+        <option value="$PROJECT_DIR$/EventAnalysis/BlogSearch/test.py" />
         <option value="$PROJECT_DIR$/static/script/age_distribution.js" />
         <option value="$PROJECT_DIR$/static/script/map.js" />
         <option value="$PROJECT_DIR$/static/script/social_emotion.js" />
-        <option value="$PROJECT_DIR$/static/script/wordcloud.js" />
-        <option value="$PROJECT_DIR$/yuqing/myurls.py" />
-        <option value="$PROJECT_DIR$/templates/graph.html" />
-        <option value="$PROJECT_DIR$/EventAnalysis/BlogSearch/search_topic.py" />
-        <option value="$PROJECT_DIR$/EventAnalysis/BlogSearch/start_search.py" />
-        <option value="$PROJECT_DIR$/EventAnalysis/BlogSearch/main_crawler.py" />
-        <option value="$PROJECT_DIR$/Emotion/e1.py" />
-        <option value="$PROJECT_DIR$/a_cleanup.py" />
-        <option value="$PROJECT_DIR$/EventAnalysis/info/attempt_three.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/static/script/news.js" />
-        <option value="$PROJECT_DIR$/EventAnalysis/BlogSearch/create_file.py" />
-        <option value="$PROJECT_DIR$/static/data/【中国首金！张梦雪！[给力]】/name_list.json" />
-        <option value="$PROJECT_DIR$/static/data/【中国首金！张梦雪！[给力]】/repost_path7.json" />
-        <option value="$PROJECT_DIR$/EventAnalysis/links_labels.py" />
+        <option value="$PROJECT_DIR$/static/script/repost_path.js" />
+        <option value="$PROJECT_DIR$/static/script/graph.js" />
+        <option value="$PROJECT_DIR$/static/css/graph.css" />
+        <option value="$PROJECT_DIR$/static/css/index.css" />
+        <option value="$PROJECT_DIR$/templates/list.html" />
         <option value="$PROJECT_DIR$/main_all.py" />
-        <option value="$PROJECT_DIR$/yuqing/views.py" />
         <option value="$PROJECT_DIR$/db_connection.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/static/script/repost_graph.js" />
+        <option value="$PROJECT_DIR$/static/data/【老布什表示将投票给希拉里】/repost_path6.json" />
+        <option value="$PROJECT_DIR$/static/data/【老布什表示将投票给希拉里】/repost_path1.json" />
+        <option value="$PROJECT_DIR$/static/data/【老布什表示将投票给希拉里】/repost_path5.json" />
+        <option value="$PROJECT_DIR$/static/data/【老布什表示将投票给希拉里】/repost_path4.json" />
+        <option value="$PROJECT_DIR$/static/data/【老布什表示将投票给希拉里】/repost_path3.json" />
+        <option value="$PROJECT_DIR$/static/data/【乔任梁去世追思会9月22日上午9时上海举行】/name_list.json" />
+        <option value="$PROJECT_DIR$/static/data/陈乔恩哭了/name_list.json" />
+        <option value="$PROJECT_DIR$/static/data/【网曝山东高速两车斗气“自杀式撞击” 警方介入调查】/name_list.json" />
+        <option value="$PROJECT_DIR$/static/data/【直击现场：纽约曼哈顿发生爆炸】/name_list.json" />
+        <option value="$PROJECT_DIR$/static/data/【太惨！女司机疑看手机压过3个小孩】/social_emotion.json" />
+        <option value="$PROJECT_DIR$/static/data/【网曝山东高速两车斗气“自杀式撞击” 警方介入调查】/social_emotion.json" />
+        <option value="$PROJECT_DIR$/static/data/【深圳女孩游华山失踪后被发现，尸体高度腐烂】/social_emotion.json" />
+        <option value="$PROJECT_DIR$/static/data/【直击现场：纽约曼哈顿发生爆炸】/social_emotion.json" />
+        <option value="$PROJECT_DIR$/templates/graphs.html" />
+        <option value="$PROJECT_DIR$/static/css/graph_style.css" />
+        <option value="$PROJECT_DIR$/templates/error.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
-  <component name="NamedScopeManager">
-    <order />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="x" value="138" />
+    <option name="y" value="53" />
+    <option name="width" value="1847" />
+    <option name="height" value="1437" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -258,6 +379,8 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="ProjectPane">
@@ -266,6 +389,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="yqnew" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -319,6 +446,46 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yqnew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yqnew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scotter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yqnew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yqnew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -335,6 +502,86 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yqnew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yqnew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="【直击现场：纽约曼哈顿发生爆炸】" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yqnew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yqnew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="【深圳女孩游华山失踪后被发现，尸体高度腐烂】" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yqnew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yqnew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yqnew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yqnew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="documents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topic1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -384,7 +631,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="info" />
+              <option name="myItemId" value="BlogSearch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,20 +644,26 @@
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../all_practice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dead_loop" />
     <property name="FullScreen" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/data/example" />
-      <recent name="$PROJECT_DIR$/templates" />
-      <recent name="$PROJECT_DIR$/documents/topic/2016-08-01 12:51/王毅：奉劝日方不要一错再错，没完没了" />
-      <recent name="$PROJECT_DIR$/static/data" />
+      <recent name="$PROJECT_DIR$/static/data/【网曝山东高速两车斗气“自杀式撞击” 警方介入调查】" />
+      <recent name="$PROJECT_DIR$/static/data/【太惨！女司机疑看手机压过3个小孩】" />
+      <recent name="$PROJECT_DIR$/static/data/【乔任梁去世追思会9月22日上午9时上海举行】" />
+      <recent name="$PROJECT_DIR$/static/data/【嫌大妈跳广场舞太吵，居民自制“水枪”扫射】" />
+      <recent name="$PROJECT_DIR$/static/data/【李克强会见法国总统奥朗德】" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/data/example" />
-      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/static/" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/documents/topic1/【未满月男婴发烧 家人喂银手镯煮水喝致其死亡】" />
+      <recent name="$PROJECT_DIR$/documents/topic1/【演员李琦刘金山遇车祸 事故致1死3伤】" />
+      <recent name="$PROJECT_DIR$/documents/topic1/【王宝强发声明离婚：妻子与经纪人有不正当关系】" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main_all">
@@ -432,60 +685,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="EventDection" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EventDectection" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yqnew" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EventDectection/EventDection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="main_crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EventAnalysis/BlogSearch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yqnew" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EventAnalysis/BlogSearch/main_crawler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="db_connection" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yqnew" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db_connection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="a_cleanup" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -500,6 +699,62 @@
       <module name="yqnew" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a_cleanup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yuqing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="yqnew" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yuqing/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test: static.data.【如果你记得今天，请转发微博传递历史！】.age_distribution.json" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="yqnew" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="static.data.【如果你记得今天，请转发微博传递历史！】.age_distribution.json" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EventAnalysis/BlogSearch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="yqnew" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EventAnalysis/BlogSearch/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -602,6 +857,12 @@
       <tasks />
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
       <envs />
       <method />
     </configuration>
@@ -760,18 +1021,18 @@
       <item index="0" class="java.lang.String" itemvalue="Python.links_labels" />
       <item index="1" class="java.lang.String" itemvalue="Django server.yqnew" />
       <item index="2" class="java.lang.String" itemvalue="Python.main_all" />
-      <item index="3" class="java.lang.String" itemvalue="Python.EventDection" />
-      <item index="4" class="java.lang.String" itemvalue="Python.main_crawler" />
-      <item index="5" class="java.lang.String" itemvalue="Python.db_connection" />
-      <item index="6" class="java.lang.String" itemvalue="Python.a_cleanup" />
+      <item index="3" class="java.lang.String" itemvalue="Python.a_cleanup" />
+      <item index="4" class="java.lang.String" itemvalue="Python.views" />
+      <item index="5" class="java.lang.String" itemvalue="Django tests.Test: static.data.【如果你记得今天，请转发微博传递历史！】.age_distribution.json" />
+      <item index="6" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.main_all" />
-        <item index="1" class="java.lang.String" itemvalue="Python.a_cleanup" />
-        <item index="2" class="java.lang.String" itemvalue="Python.db_connection" />
-        <item index="3" class="java.lang.String" itemvalue="Python.main_crawler" />
-        <item index="4" class="java.lang.String" itemvalue="Python.EventDection" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Django tests.Test: static.data.【如果你记得今天，请转发微博传递历史！】.age_distribution.json" />
+        <item index="3" class="java.lang.String" itemvalue="Python.a_cleanup" />
+        <item index="4" class="java.lang.String" itemvalue="Python.views" />
       </list>
     </recent_temporary>
   </component>
@@ -788,51 +1049,44 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Test__static_data_【如果你记得今天，请转发微博传递历史！】_age_distribution_json - 2016.09.20 at 13h 46m 27s.xml">
+      <configuration name="Test: static.data.【如果你记得今天，请转发微博传递历史！】.age_distribution.json" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="138" y="53" width="1847" height="1437" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14018692" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24766356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26059154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26012462" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30050084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31374606" sideWeight="0.10570005" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843652" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25918153" sideWeight="0.8942999" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21196222" sideWeight="0.49584946" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24763903" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21661238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39719626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21502797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35514018" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -852,346 +1106,46 @@
           <url>file://$PROJECT_DIR$/yuqing/myurls.py</url>
           <line>1</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/KeyExtract/candidate_words.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/EventAnalysis/RedisDj/Crawler/combine_txt.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/main_all.py</url>
+          <line>178</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/main_all.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/data/example/repost_path6.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EventAnalysis/info/info.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.333334">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/example/repost_path7.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/example/name_list.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/script/repost_graph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="353" column="38" selection-start-line="353" selection-start-column="38" selection-end-line="353" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/script/age_distribution.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/script/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/script/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/example/datas.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/example/news1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/script/wordcloud.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/script/social_emotion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/script/repost_path.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="34" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/script/china.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6136364">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/repost_graph.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665">
-          <caret line="7" column="13" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/graph.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.777779">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yuqing/myurls.py">
+    <entry file="file://$PROJECT_DIR$/static/script/scotter/perfect-scrollbar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm40/system/python_stubs/-1247972723/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33167082">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EventAnalysis/BlogSearch/write_everything.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EventDectection/EventDection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EventDectection/NewsDection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="200" column="8" selection-start-line="200" selection-start-column="8" selection-end-line="200" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KeyExtract/key_extract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="26" selection-start-line="95" selection-start-column="2" selection-end-line="100" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EventAnalysis/BlogSearch/main_crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Emotion/e1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yqnew/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a_cleanup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding>
-            <element signature="e#19#46#0" expanded="true" />
-            <marker date="1470642125530" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/example/wordcloud.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.0">
-          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yuqing/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/【中国首金！张梦雪！[给力]】/wordcloud.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/【中国首金！张梦雪！[给力]】/news.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/script/news.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EventAnalysis/BlogSearch/search_topic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="145" column="31" selection-start-line="145" selection-start-column="31" selection-end-line="145" selection-end-column="31" />
-          <folding>
-            <element signature="e#16#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EventAnalysis/BlogSearch/start_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-          <folding>
-            <element signature="e#16#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EventAnalysis/BlogSearch/create_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/【中国首金！张梦雪！[给力]】/name_list.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/【中国首金！张梦雪！[给力]】/repost_path7.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yuqing/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="284" column="0" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
-          <folding>
-            <element signature="e#34#48#0" expanded="true" />
-            <marker date="1470655171602" expanded="true" signature="600:718" placeholder="insert into ..." />
-            <marker date="1470655171602" expanded="true" signature="791:848" placeholder="select event..event..." />
-            <marker date="1470655171602" expanded="true" signature="1365:1483" placeholder="insert into ..." />
-            <marker date="1470655171602" expanded="true" signature="2322:2379" placeholder="update event..." />
-            <marker date="1470655171602" expanded="true" signature="2722:2781" placeholder="SELECT DISTI..event..." />
-            <marker date="1470655171602" expanded="true" signature="3256:3328" placeholder="SELECT DISTI..event..." />
-            <marker date="1470655171602" expanded="true" signature="4068:4295" placeholder="SELECT DISTI..." />
-            <marker date="1470655171602" expanded="true" signature="4841:4931" placeholder="select scale..eventRefresh..." />
-            <marker date="1470655171602" expanded="true" signature="5490:5577" placeholder="select netwo..eventRefresh..." />
-            <marker date="1470655171602" expanded="true" signature="6109:6216" placeholder="select sum(c..news..." />
-            <marker date="1470655171602" expanded="true" signature="6788:6912" placeholder="select topic..news..." />
-            <marker date="1470655171602" expanded="true" signature="7865:7918" placeholder="select topic..event..." />
-            <marker date="1470655171602" expanded="true" signature="9154:9206" placeholder="select event..event..." />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1199,35 +1153,426 @@
     <entry file="file://$PROJECT_DIR$/main_all.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="2" selection-end-line="61" selection-end-column="22" />
+          <caret line="174" column="15" selection-start-line="174" selection-start-column="15" selection-end-line="174" selection-end-column="15" />
           <folding>
-            <element signature="e#75#104#0" expanded="true" />
+            <element signature="e#75#86#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EventAnalysis/links_labels.py">
+    <entry file="file://$PROJECT_DIR$/templates/allGraph.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="287" column="22" selection-start-line="287" selection-start-column="22" selection-end-line="287" selection-end-column="22" />
-          <folding>
-            <element signature="e#2690#3497#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EventAnalysis/info/attempt_three.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="238" column="20" selection-start-line="238" selection-start-column="20" selection-end-line="238" selection-end-column="20" />
+        <state vertical-scroll-proportion="-19.6">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KeyExtract/readme">
+    <entry file="file://$PROJECT_DIR$/static/script/news.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="125" column="61" selection-start-line="125" selection-start-column="61" selection-end-line="125" selection-end-column="61" />
+          <folding>
+            <element signature="e#34#48#0" expanded="true" />
+            <marker date="1474636097094" expanded="true" signature="711:833" placeholder="insert into event... " />
+            <marker date="1474636097094" expanded="true" signature="914:971" placeholder="select event... event" />
+            <marker date="1474636097094" expanded="true" signature="1614:1736" placeholder="insert into eventRefresh... " />
+            <marker date="1474636097094" expanded="true" signature="2922:2979" placeholder="update event... " />
+            <marker date="1474636097094" expanded="true" signature="3382:3441" placeholder="SELECT DISTI... event" />
+            <marker date="1474636097094" expanded="true" signature="3916:3988" placeholder="SELECT DISTI... event" />
+            <marker date="1474636097094" expanded="true" signature="4730:4961" placeholder="SELECT DISTI... " />
+            <marker date="1474636097094" expanded="true" signature="4982:5080" placeholder="select disti... " />
+            <marker date="1474636097094" expanded="true" signature="4982:5081" placeholder="select disti... " />
+            <marker date="1474636097094" expanded="true" signature="4982:5111" placeholder="select disti... " />
+            <marker date="1474636097094" expanded="true" signature="5606:5661" placeholder="select event... event" />
+            <marker date="1474636097094" expanded="true" signature="5606:5663" placeholder="select event... event" />
+            <marker date="1474636097094" expanded="true" signature="5606:5668" placeholder="select event... event" />
+            <marker date="1474636097094" expanded="true" signature="6137:6222" placeholder="select scale... eventRefresh" />
+            <marker date="1474636097094" expanded="true" signature="6785:6872" placeholder="select netwo... eventRefresh" />
+            <marker date="1474636097094" expanded="true" signature="7404:7511" placeholder="select sum(c... news" />
+            <marker date="1474636097094" expanded="true" signature="8083:8207" placeholder="select topic... news" />
+            <marker date="1474636097094" expanded="true" signature="9822:9873" placeholder="select title... news" />
+            <marker date="1474636097094" expanded="true" signature="9822:9874" placeholder="select title... news" />
+            <marker date="1474636097094" expanded="true" signature="9822:9881" placeholder="select title... news" />
+            <marker date="1474636097094" expanded="true" signature="10645:10698" placeholder="select topic... event" />
+            <marker date="1474636097094" expanded="true" signature="11876:11902" placeholder="select event... event" />
+            <marker date="1474636097094" expanded="true" signature="12093:12145" placeholder="select event... event" />
+            <marker date="1474636097094" expanded="true" signature="13498:13534" placeholder="delete from " />
+            <marker date="1474636097094" expanded="true" signature="13596:13652" placeholder="delete from " />
+            <marker date="1474636097094" expanded="true" signature="13865:13903" placeholder="select * fro... event" />
+            <marker date="1474636097094" expanded="true" signature="14240:14263" placeholder="select topic... event" />
+            <marker date="1474636097094" expanded="true" signature="14499:14535" placeholder="delete from " />
+            <marker date="1474636097094" expanded="true" signature="14871:14894" placeholder="select topic... event" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.766666">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【老布什表示将投票给希拉里】/news.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【深圳女孩游华山失踪后被发现，尸体高度腐烂】/name_list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【老布什表示将投票给希拉里】/name_list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【老布什表示将投票给希拉里】/repost_path7.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="50" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5605" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/script/graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29641694">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/script/jqcloud-1.0.4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/script/repost_graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="353" column="32" selection-start-line="353" selection-start-column="32" selection-end-line="353" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【老布什表示将投票给希拉里】/repost_path6.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【老布什表示将投票给希拉里】/repost_path5.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【老布什表示将投票给希拉里】/repost_path4.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【老布什表示将投票给希拉里】/repost_path3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/陈乔恩哭了/repost_path7.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/陈乔恩哭了/repost_path5.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/陈乔恩哭了/repost_path4.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/送别乔任梁 乔任梁曾在朋友圈写下前提是问心无愧/repost_path6.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/送别乔任梁 乔任梁曾在朋友圈写下前提是问心无愧/repost_path5.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【乔任梁去世追思会9月22日上午9时上海举行】/repost_path7.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【乔任梁去世追思会9月22日上午9时上海举行】/repost_path6.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【乔任梁去世追思会9月22日上午9时上海举行】/repost_path4.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【李克强会见法国总统奥朗德】/repost_path4.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【李克强会见法国总统奥朗德】/repost_path7.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【李克强会见法国总统奥朗德】/repost_path5.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【李克强会见法国总统奥朗德】/repost_path6.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【嫌大妈跳广场舞太吵，居民自制“水枪”扫射】/repost_path7.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【嫌大妈跳广场舞太吵，居民自制“水枪”扫射】/repost_path6.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【乔任梁去世追思会9月22日上午9时上海举行】/repost_path5.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.1">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【乔任梁去世追思会9月22日上午9时上海举行】/name_list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="84" selection-start-line="0" selection-start-column="84" selection-end-line="0" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/陈乔恩哭了/name_list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="65" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/graph.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="19.3">
+          <caret line="93" column="28" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yuqing/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【太惨！女司机疑看手机压过3个小孩】/repost_path6.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【太惨！女司机疑看手机压过3个小孩】/repost_path5.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【网曝山东高速两车斗气“自杀式撞击” 警方介入调查】/repost_path7.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【网曝山东高速两车斗气“自杀式撞击” 警方介入调查】/name_list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="65" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【直击现场：纽约曼哈顿发生爆炸】/name_list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【太惨！女司机疑看手机压过3个小孩】/wordcloud.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【太惨！女司机疑看手机压过3个小孩】/social_emotion.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="288" selection-start-line="0" selection-start-column="288" selection-end-line="0" selection-end-column="288" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【网曝山东高速两车斗气“自杀式撞击” 警方介入调查】/social_emotion.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="132" selection-start-line="0" selection-start-column="132" selection-end-line="0" selection-end-column="132" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【深圳女孩游华山失踪后被发现，尸体高度腐烂】/social_emotion.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="249" selection-start-line="0" selection-start-column="249" selection-end-line="0" selection-end-column="249" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/【直击现场：纽约曼哈顿发生爆炸】/social_emotion.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="133" selection-start-line="0" selection-start-column="133" selection-end-line="0" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/graphs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.866667">
+          <caret line="142" column="51" selection-start-line="142" selection-start-column="51" selection-end-line="142" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/graph_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.5">
+          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.566667">
+          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5233119">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
           <folding />
         </state>
       </provider>

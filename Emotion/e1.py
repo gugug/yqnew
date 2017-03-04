@@ -1,4 +1,3 @@
-__author__ = 'kalin'
 # coding=utf-8
 import os
 import re
@@ -118,25 +117,29 @@ class Emotion:
         function: 统计每类情感的比例
         :return: feeling_proportion_dict :　每类情感（包括无情感词）的比例
         """
-        self.content_feeling_dict = self.emotion_detect()
-        values = self.content_feeling_dict.values()
-        all_emotion = []
-        none_emotion = 0      # 情感none的次数
-        for v in values:
-            if len(v) == 0:
-                none_emotion += 1
-            else:
-                for i in v:
-                    all_emotion.append(i)
-        all_num = float(none_emotion + len(all_emotion))   # 感情的总次数
-        counts = collections.Counter(all_emotion)  # 统计每种感情的次数
-        valid_num = all_num - none_emotion
-        for i in range(8):
-            self.feeling_proportion_dict[self.num_feel_dict[i]] = counts[i]/valid_num
-        # self.feeling_proportion_dict[self.num_feel_dict[8]] = none_emotion/all_num
-        return self.feeling_proportion_dict
+        try:
+            self.content_feeling_dict = self.emotion_detect()
+            values = self.content_feeling_dict.values()
+            all_emotion = []
+            none_emotion = 0      # 情感none的次数
+            for v in values:
+                if len(v) == 0:
+                    none_emotion += 1
+                else:
+                    for i in v:
+                        all_emotion.append(i)
+            all_num = float(none_emotion + len(all_emotion))   # 感情的总次数
+            counts = collections.Counter(all_emotion)  # 统计每种感情的次数
+            valid_num = all_num - none_emotion
+            for i in range(8):
+                self.feeling_proportion_dict[self.num_feel_dict[i]] = counts[i]/valid_num
+            # self.feeling_proportion_dict[self.num_feel_dict[8]] = none_emotion/all_num
+            return self.feeling_proportion_dict
+        except:
+            return self.feeling_proportion_dict
 
-def dump_json(dict_emotion,path):
+
+def dump_json(dict_emotion, path):
     """
     生成emotion.json
     :param dict_emotion: 情绪字典
@@ -146,20 +149,26 @@ def dump_json(dict_emotion,path):
     event_title = path.split('/')[-2]
     for i in dict_emotion:
         dict_emotion[i] = '%.2f' % dict_emotion[i]
-        emotion_dict = {'value':dict_emotion[i],'name':i}
+        emotion_dict = {'value': dict_emotion[i],'name':i}
         emotion_list.append(emotion_dict)
     data_dict = {'socialEmotion':emotion_list}
-    encode_json = json.dumps(data_dict,separators=(',',':'))
-    json_file = open(os.path.join(JSON_DIR,event_title,'social_emotion.json'),'w+')
+    encode_json = json.dumps(data_dict, separators=(',', ':'))
+    if not os.path.exists(JSON_DIR+'/'+event_title):
+        os.mkdir(JSON_DIR+'/'+event_title)
+    print JSON_DIR+'/'+event_title
+    json_file = open(os.path.join(JSON_DIR, event_title, 'social_emotion.json'), 'w+')
     json_file.writelines(encode_json)
     json_file.close()
-    print 'finish writing social emotion json'
+    print 'finish writing social emotion json' + event_title
     return True
 
+
 def main_emotion(path):
-    comment_file = os.path.join(path,'comment.txt')
+    comment_file = os.path.join(path, 'comment.txt')
+    print 'json_path1', path
+    print 'comment_file', comment_file
     dict_emotion = Emotion(comment_file).proportion()
-    dump_json(dict_emotion,path)
+    dump_json(dict_emotion, path)
     for emotion_class in dict_emotion:
         print emotion_class, ':', dict_emotion[emotion_class]
 

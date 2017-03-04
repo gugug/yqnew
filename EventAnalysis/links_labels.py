@@ -158,14 +158,14 @@ def link_label(road_list):
                 size_list[index] += 2
 
             for i in range(2, len(name_list)):
-                print i
+                # print i
                 if name_list[i] not in label_list:
                     size = 7
                     label_list.append(name_list[i])
                     size_list.append(size)
                     num1 = label_list.index(name_list[i])
                     num0 = label_list.index(name_list[i - 1])
-                    print 'from', name_list[i - 1], num0, 'to', name_list[i], num1
+                    # print 'from', name_list[i - 1], num0, 'to', name_list[i], num1
                     # if name_list[1] not in label_list:
                     #     label_list.append(name_list[1])
                     #     print chardet.detect(label_list[0])
@@ -238,6 +238,7 @@ def write_history_json(path):
     用于写入7个网络图
     :return:
     """
+    print "writing history json"
     count = 0
     event_title = path.split('/')[-2]
     folder_path = os.path.join(JSON_DIR,event_title)
@@ -250,6 +251,7 @@ def write_history_json(path):
         if low == 0:
             low = 1
         for i in range(low, 7):
+            print 'writing json No.',i
             older_file = open(os.path.join(JSON_DIR,event_title, 'repost_path%s.json' % str(i)),'w+')
             newer_file = open(os.path.join(JSON_DIR,event_title, 'repost_path%s.json' % str(i+1)),'r+')
             content = newer_file.readlines()
@@ -269,6 +271,8 @@ def write_json(file_name, path):
     :param file_name:
     :return:
     """
+    print 'name list json', file_name
+    print 'json path', path
     nodes_list = []
     edges_list = []
     name_list = []
@@ -285,7 +289,7 @@ def write_json(file_name, path):
     source_id = edges_sheet.col_values(0, 1)
     target_id = edges_sheet.col_values(1, 1)
     for i in range(len(size)):
-        if size[i]>50:
+        if size[i]>40:
             name_list.append(label[i])
             cate_dict = {'id':id[i],'name':label[i]}
             cate_list.append(cate_dict)

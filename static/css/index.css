@@ -21,7 +21,7 @@ a{
 #title{
 	position: relative;
 	left: 50%;
-	margin-left: -144px;
+	margin-left: -205px;
 	margin-bottom: 30px;
 }
 #glasses{
@@ -75,4 +75,7 @@ a{
 .cd-horizontal-timeline{
 	z-index: 300;
 	margin-top: -80px;
+}
+.events-wrapper{
+	height:450px !important;
 }

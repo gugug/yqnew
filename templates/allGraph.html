@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+    var topic = '{{ topic }}';
+    </script>
+    <link rel="stylesheet" href={% static "css/allGraph.css"%}>
+    <script type="text/javascript" src={% static "script/jquery-3.1.0.min.js"%}></script>
+    <script type="text/javascript" src={% static "script/echarts/echarts.js"%}></script>
+{#    <script type="text/javascript" src={% static "map/china.js"></script>#}
+    <script type="text/javascript" src={% static "script/repost_graph.js" %}></script>
+    <title>all-graphs</title>
+</head>
+<body>
+<div id="header">
+    <div id="logo">舆情动态社区检测</div>
+</div>
+<div id="container">
+    <div id="title">
+        <center>{{ topic }}</center>
+    </div>
+    <div id="nameList">
+        <div id="nameTitle"><center>重要影响力博主列表：</center></div>
+    </div>
+    <div id="generalView">
+        <div class="graph" id="graph_0"></div>
+        <!-- 微博转发网络图-->
+    </div>
+    <div id="smallView">
+        <div class="view" id="view1">
+            <div class="graph_1" id="graph_1"></div>
+        </div>
+        <div class="view" id="view2">
+            <div class="graph_1" id="graph_2"></div>
+        </div>
+        <div class="view" id="view3">
+            <div class="graph_1" id="graph_3"></div>
+        </div>
+        <div class="view" id="view4">
+            <div class="graph_1" id="graph_4"></div>
+        </div>
+        <div class="view" id="view5">
+            <div class="graph_1" id="graph_5"></div>
+        </div>
+        <div class="view" id="view6">
+            <div class="graph_1" id="graph_6"></div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <center><footer>copyright&copy;广东外语外贸大学 数据挖掘小组</footer></center>
+</div>
+</body>
+</html>
+
+{#<script type="text/javascript">#}
+{##}
+{#    $.getJSON("/static/data/allDatas.json",function(data){#}
+{##}
+{#        $("#nameList").append('<div id="names"><center>'+data.nameList.join(',')+'</center></div>');#}
+{##}
+{#        /*----------------graph---------------------*/#}
+{##}
+{#        var convertNode = function (node) {#}
+{#            console.log(node);#}
+{#            var res = [];#}
+{#            for (var i = 0; i < node.length; i++) {#}
+{#                res.push({#}
+{#                    id: node[i].id,#}
+{#                    name: node[i].label,#}
+{#                    category: node[i].cateNum,#}
+{#                    symbolSize: node[i].size,#}
+{#                    /*itemStyle: {#}
+{#                     normal: {#}
+{#                     color: 'rgb(' + [#}
+{#                     Math.round(Math.random() * 160),#}
+{#                     Math.round(Math.random() * 160),#}
+{#                     200#}
+{#                     ].join(',') + ')'#}
+{#                     }#}
+{#                     }*/#}
+{#                });#}
+{#            }#}
+{#//            console.log(res);#}
+{#            return res;#}
+{#        };#}
+{#        var convertEdge = function (edge) {#}
+{#            var res = [];#}
+{#            for (var i = 0; i < edge.length; i++) {#}
+{#                res.push({#}
+{#                    source: edge[i].sourceID,#}
+{#                    target: edge[i].targetID#}
+{#                });#}
+{#            }#}
+{#            return res;#}
+{#        };#}
+{#        var legends = function (a){#}
+{#            var res = [];#}
+{#            for(var i = 0; i < a.length; i++){#}
+{#                res.push(a[i].name);#}
+{#            }#}
+{#            return res;#}
+{#        };#}
+{##}
+{#        var chart_0 = echarts.init(document.getElementById('graph_0'), null, {#}
+{#            renderer: 'canvas'#}
+{#        });#}
+{#        chart_0.setOption({#}
+{#            title: {#}
+{#                text: '总网络图',#}
+{#                left: "center",#}
+{#                textStyle: {#}
+{#                    color: '#ACE1AF'#}
+{#                }#}
+{#            },#}
+{#            legend: {#}
+{#                top:'bottom',#}
+{#                data: legends(data.generalView.cates)#}
+{#            },#}
+{#            animation: false,#}
+{#//            animationDurationUpdate: 1500,#}
+{#//            animationEasingUpdate: 'quinticInOut',#}
+{#            series: [{#}
+{#                type: 'graph',#}
+{#                layout: 'force',#}
+{#                force: {#}
+{#//                    repulsion: 500,#}
+{#                    edgeLength: 100#}
+{#                },#}
+{#                // progressiveThreshold: 700,#}
+{#                categories:data.generalView.cates,#}
+{#                data: convertNode(data.generalView.nodes),#}
+{#                edges: convertEdge(data.generalView.edges),#}
+{#                edgeSymbol: ['none', 'arrow'],#}
+{#                animation: false,#}
+{#                roam: true,#}
+{#                draggable: true,#}
+{#                label: {#}
+{#                    emphasis: {#}
+{#                        position: 'right',#}
+{#                        show: true#}
+{#                    }#}
+{#                },#}
+{#                roam: true,#}
+{#                focusNodeAdjacency: true,#}
+{#                lineStyle: {#}
+{#                    normal: {#}
+{#                        width: 0.5,#}
+{#                        curveness: 0.3,#}
+{#                        opacity: 0.7#}
+{#                    }#}
+{#                }#}
+{#            }]#}
+{#        });#}
+{##}
+{#        var chart_1 = echarts.init(document.getElementById('graph_1'), null, {#}
+{#            renderer: 'canvas'#}
+{#        });#}
+{#        chart_1.setOption({#}
+{#            title: {#}
+{#                text: '第一次检测网络图',#}
+{#                left: "center",#}
+{#                textStyle: {#}
+{#                    color: '#ACE1AF'#}
+{#                }#}
+{#            },#}
+{#            legend: {#}
+{#                top:'bottom',#}
+{#                data: legends(data.view1.cates)#}
+{#            },#}
+{#            animation: false,#}
+{#//            animationDurationUpdate: 1500,#}
+{#//            animationEasingUpdate: 'quinticInOut',#}
+{#            series: [{#}
+{#                type: 'graph',#}
+{#                layout: 'force',#}
+{#                force: {#}
+{#//                    repulsion: 500,#}
+{#                    edgeLength: 100#}
+{#                },#}
+{#                // progressiveThreshold: 700,#}
+{#                categories:data.view1.cates,#}
+{#                data: convertNode(data.view1.nodes),#}
+{#                edges: convertEdge(data.view1.edges),#}
+{#                edgeSymbol: ['none', 'arrow'],#}
+{#                animation: false,#}
+{#                roam: true,#}
+{#                draggable: true,#}
+{#                label: {#}
+{#                    emphasis: {#}
+{#                        position: 'right',#}
+{#                        show: true#}
+{#                    }#}
+{#                },#}
+{#                roam: true,#}
+{#                focusNodeAdjacency: true,#}
+{#                lineStyle: {#}
+{#                    normal: {#}
+{#                        width: 0.5,#}
+{#                        curveness: 0.3,#}
+{#                        opacity: 0.7#}
+{#                    }#}
+{#                }#}
+{#            }]#}
+{#        });#}
+{#        $('#view1').append('<div class="pCss"><center>检测时间：'+data.view1.time+"</center></div>");#}
+{##}
+{#        var chart_2 = echarts.init(document.getElementById('graph_2'), null, {#}
+{#            renderer: 'canvas'#}
+{#        });#}
+{#        chart_2.setOption({#}
+{#            title: {#}
+{#                text: '第二次检测网络图',#}
+{#                left: "center",#}
+{#                textStyle: {#}
+{#                    color: '#ACE1AF'#}
+{#                }#}
+{#            },#}
+{#            legend: {#}
+{#                top:'bottom',#}
+{#                data: legends(data.view2.cates)#}
+{#            },#}
+{#            animation: false,#}
+{#//            animationDurationUpdate: 1500,#}
+{#//            animationEasingUpdate: 'quinticInOut',#}
+{#            series: [{#}
+{#                type: 'graph',#}
+{#                layout: 'force',#}
+{#                force: {#}
+{#//                    repulsion: 500,#}
+{#                    edgeLength: 100#}
+{#                },#}
+{#                // progressiveThreshold: 700,#}
+{#                categories:data.view2.cates,#}
+{#                data: convertNode(data.view2.nodes),#}
+{#                edges: convertEdge(data.view2.edges),#}
+{#                edgeSymbol: ['none', 'arrow'],#}
+{#                animation: false,#}
+{#                roam: true,#}
+{#                draggable: true,#}
+{#                label: {#}
+{#                    emphasis: {#}
+{#                        position: 'right',#}
+{#                        show: true#}
+{#                    }#}
+{#                },#}
+{#                roam: true,#}
+{#                focusNodeAdjacency: true,#}
+{#                lineStyle: {#}
+{#                    normal: {#}
+{#                        width: 0.5,#}
+{#                        curveness: 0.3,#}
+{#                        opacity: 0.7#}
+{#                    }#}
+{#                }#}
+{#            }]#}
+{#        });#}
+{#        $('#view2').append('<div class="pCss"><center>检测时间：'+data.view2.time+"</center></div>");#}
+{##}
+{#        var chart_3 = echarts.init(document.getElementById('graph_3'), null, {#}
+{#            renderer: 'canvas'#}
+{#        });#}
+{#        chart_3.setOption({#}
+{#            title: {#}
+{#                text: '第三次检测网络图',#}
+{#                left: "center",#}
+{#                textStyle: {#}
+{#                    color: '#ACE1AF'#}
+{#                }#}
+{#            },#}
+{#            legend: {#}
+{#                top:'bottom',#}
+{#                data: legends(data.view3.cates)#}
+{#            },#}
+{#            animation: false,#}
+{#//            animationDurationUpdate: 1500,#}
+{#//            animationEasingUpdate: 'quinticInOut',#}
+{#            series: [{#}
+{#                type: 'graph',#}
+{#                layout: 'force',#}
+{#                force: {#}
+{#//                    repulsion: 500,#}
+{#                    edgeLength: 100#}
+{#                },#}
+{#                // progressiveThreshold: 700,#}
+{#                categories:data.view3.cates,#}
+{#                data: convertNode(data.view3.nodes),#}
+{#                edges: convertEdge(data.view3.edges),#}
+{#                edgeSymbol: ['none', 'arrow'],#}
+{#                animation: false,#}
+{#                roam: true,#}
+{#                draggable: true,#}
+{#                label: {#}
+{#                    emphasis: {#}
+{#                        position: 'right',#}
+{#                        show: true#}
+{#                    }#}
+{#                },#}
+{#                roam: true,#}
+{#                focusNodeAdjacency: true,#}
+{#                lineStyle: {#}
+{#                    normal: {#}
+{#                        width: 0.5,#}
+{#                        curveness: 0.3,#}
+{#                        opacity: 0.7#}
+{#                    }#}
+{#                }#}
+{#            }]#}
+{#        });#}
+{#        $('#view3').append('<div class="pCss"><center>检测时间：'+data.view3.time+"</center></div>");#}
+{##}
+{#        var chart_4 = echarts.init(document.getElementById('graph_4'), null, {#}
+{#            renderer: 'canvas'#}
+{#        });#}
+{#        chart_4.setOption({#}
+{#            title: {#}
+{#                text: '第四次检测网络图',#}
+{#                left: "center",#}
+{#                textStyle: {#}
+{#                    color: '#ACE1AF'#}
+{#                }#}
+{#            },#}
+{#            legend: {#}
+{#                top:'bottom',#}
+{#                data: legends(data.view4.cates)#}
+{#            },#}
+{#            animation: false,#}
+{#//            animationDurationUpdate: 1500,#}
+{#//            animationEasingUpdate: 'quinticInOut',#}
+{#            series: [{#}
+{#                type: 'graph',#}
+{#                layout: 'force',#}
+{#                force: {#}
+{#//                    repulsion: 500,#}
+{#                    edgeLength: 100#}
+{#                },#}
+{#                // progressiveThreshold: 700,#}
+{#                categories:data.view4.cates,#}
+{#                data: convertNode(data.view4.nodes),#}
+{#                edges: convertEdge(data.view4.edges),#}
+{#                edgeSymbol: ['none', 'arrow'],#}
+{#                animation: false,#}
+{#                roam: true,#}
+{#                draggable: true,#}
+{#                label: {#}
+{#                    emphasis: {#}
+{#                        position: 'right',#}
+{#                        show: true#}
+{#                    }#}
+{#                },#}
+{#                roam: true,#}
+{#                focusNodeAdjacency: true,#}
+{#                lineStyle: {#}
+{#                    normal: {#}
+{#                        width: 0.5,#}
+{#                        curveness: 0.3,#}
+{#                        opacity: 0.7#}
+{#                    }#}
+{#                }#}
+{#            }]#}
+{#        });#}
+{#        $('#view4').append('<div class="pCss"><center>检测时间：'+data.view4.time+"</center></div>");#}
+{##}
+{#        var chart_5 = echarts.init(document.getElementById('graph_5'), null, {#}
+{#            renderer: 'canvas'#}
+{#        });#}
+{#        chart_5.setOption({#}
+{#            title: {#}
+{#                text: '第五次检测网络图',#}
+{#                left: "center",#}
+{#                textStyle: {#}
+{#                    color: '#ACE1AF'#}
+{#                }#}
+{#            },#}
+{#            legend: {#}
+{#                top:'bottom',#}
+{#                data: legends(data.view5.cates)#}
+{#            },#}
+{#            animation: false,#}
+{#//            animationDurationUpdate: 1500,#}
+{#//            animationEasingUpdate: 'quinticInOut',#}
+{#            series: [{#}
+{#                type: 'graph',#}
+{#                layout: 'force',#}
+{#                force: {#}
+{#//                    repulsion: 500,#}
+{#                    edgeLength: 100#}
+{#                },#}
+{#                // progressiveThreshold: 700,#}
+{#                categories:data.view5.cates,#}
+{#                data: convertNode(data.view5.nodes),#}
+{#                edges: convertEdge(data.view5.edges),#}
+{#                edgeSymbol: ['none', 'arrow'],#}
+{#                animation: false,#}
+{#                roam: true,#}
+{#                draggable: true,#}
+{#                label: {#}
+{#                    emphasis: {#}
+{#                        position: 'right',#}
+{#                        show: true#}
+{#                    }#}
+{#                },#}
+{#                roam: true,#}
+{#                focusNodeAdjacency: true,#}
+{#                lineStyle: {#}
+{#                    normal: {#}
+{#                        width: 0.5,#}
+{#                        curveness: 0.3,#}
+{#                        opacity: 0.7#}
+{#                    }#}
+{#                }#}
+{#            }]#}
+{#        });#}
+{#        $('#view5').append('<div class="pCss"><center>检测时间：'+data.view5.time+"</center></div>");#}
+{##}
+{#        var chart_6 = echarts.init(document.getElementById('graph_6'), null, {#}
+{#            renderer: 'canvas'#}
+{#        });#}
+{#        chart_6.setOption({#}
+{#            title: {#}
+{#                text: '第六次检测网络图',#}
+{#                left: "center",#}
+{#                textStyle: {#}
+{#                    color: '#ACE1AF'#}
+{#                }#}
+{#            },#}
+{#            legend: {#}
+{#                top:'bottom',#}
+{#                data: legends(data.view6.cates)#}
+{#            },#}
+{#            animation: false,#}
+{#//            animationDurationUpdate: 1500,#}
+{#//            animationEasingUpdate: 'quinticInOut',#}
+{#            series: [{#}
+{#                type: 'graph',#}
+{#                layout: 'force',#}
+{#                force: {#}
+{#//                    repulsion: 500,#}
+{#                    edgeLength: 100#}
+{#                },#}
+{#                // progressiveThreshold: 700,#}
+{#                categories:data.view6.cates,#}
+{#                data: convertNode(data.view6.nodes),#}
+{#                edges: convertEdge(data.view6.edges),#}
+{#                edgeSymbol: ['none', 'arrow'],#}
+{#                animation: false,#}
+{#                roam: true,#}
+{#                draggable: true,#}
+{#                label: {#}
+{#                    emphasis: {#}
+{#                        position: 'right',#}
+{#                        show: true#}
+{#                    }#}
+{#                },#}
+{#                roam: true,#}
+{#                focusNodeAdjacency: true,#}
+{#                lineStyle: {#}
+{#                    normal: {#}
+{#                        width: 0.5,#}
+{#                        curveness: 0.3,#}
+{#                        opacity: 0.7#}
+{#                    }#}
+{#                }#}
+{#            }]#}
+{#        });#}
+{#        $('#view6').append('<div class="pCss"><center>检测时间：'+data.view6.time+"</center></div>");#}
+{#    });#}
+{#</script>#}

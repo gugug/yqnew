@@ -6,7 +6,11 @@ $.getJSON('/static/data/'+topic+'/age_distribution.json',function(data) {
     chart_5.setOption({
         title: {
             text: "年龄分布图",
-            left: 'center'
+            left: 'center',
+			textStyle: {
+				color: '#5CC595',
+                fontSize:30
+			}
         },
         legend: {
             data: [{
@@ -23,13 +27,23 @@ $.getJSON('/static/data/'+topic+'/age_distribution.json',function(data) {
         },
         xAxis: {
             name: "年龄段",
-            data: ['70前','70后', '80后', '90后', '95后','其他']
+            data: ['70前','70后', '80后', '90后', '95后','其他'],
+			axisLine: {
+				lineStyle: {
+					color: '#555'
+				}
+			}
         },
         yAxis: {
             name: "百分比",
             axisLabel: {
                 formatter: '{value}%'
-            }
+            },
+			axisLine: {
+				lineStyle: {
+					color: '#555'
+				}
+			}
         },
         series: [{
             type: "bar",
@@ -37,9 +51,9 @@ $.getJSON('/static/data/'+topic+'/age_distribution.json',function(data) {
             data: chart5_data,
             itemStyle: {
                 normal: {
-                    color: "#7bbfea"
+                    color: "#5CC595"
                 }
             }
         }]
     });
-})
+});
